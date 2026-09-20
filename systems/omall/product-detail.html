@@ -1,36 +1,148 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Omall · 商品详情</title>
-<link rel="stylesheet" href="../../shared/styles.css">
 <style>
-.detail-content { padding: 24px; min-height: 560px; }
-.footer-bar { height: 40px; background: #fff; border-top: 1px solid #e8e8e8; display: flex; align-items: center; justify-content: flex-end; padding: 0 16px; gap: 8px; margin-top: 16px; border-radius: 0 0 4px 4px; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; font-size: 14px; color: #333; background: #f4f6fa; }
+a { text-decoration: none; color: inherit; }
+.header { height: 50px; position: fixed; top: 0; left: 0; right: 0; z-index: 5; background: #fff; border-bottom: 1px solid #eee; display: flex; align-items: center; padding: 0 20px; }
+.logo { display: flex; align-items: center; margin-right: 95px; }
+.logo-mark { width: 20px; height: 24px; background: linear-gradient(135deg, #7dd3c0 0%, #5ba3e6 100%); border-radius: 5px; margin-right: 3px; display: inline-block; position: relative; }
+.logo-mark::after { content: ''; position: absolute; top: 4px; left: 4px; right: 4px; bottom: 4px; background: #fff; border-radius: 2px; }
+.logo-text { font-size: 22px; font-weight: 700; color: #5ba3e6; letter-spacing: -0.5px; }
+.nav { display: flex; align-items: center; gap: 10px; flex: 1; }
+.nav a { height: 42px; padding: 0 14px; display: flex; align-items: center; gap: 7px; border-radius: 4px; font-weight: 600; }
+.nav a.active { color: #2f8bf2; background: #eaf5ff; }
+.nav svg { width: 21px; height: 21px; }
+.menu-panel { display:none; position:absolute; top:49px; left:0; right:0; width:100%; height:85px; padding:0 22px; background:#fff; z-index:30; }
+.menu-panel.open { display:flex; align-items:center; gap:48px; }
+.menu-panel a { display:flex; align-items:center; gap:9px; color:#333; font-size:16px; white-space:nowrap; }
+.menu-panel a:first-child { color:#2f8bf2; }
+.menu-panel svg { width:20px; height:20px; }
+.menu-mask { display:none; position:fixed; inset:134px 0 0; background:rgba(0,0,0,.28); z-index:10; }
+.menu-mask.open { display:block; }
+.right { display: flex; align-items: center; gap: 14px; white-space: nowrap; }
+.search { height: 32px; padding: 0 12px; display: flex; align-items: center; gap: 7px; border-radius: 18px; background: #f5f5f5; color: #666; }
+.search kbd { font-size: 12px; border: 0; background: transparent; color: #666; }
+.time { font-size: 12px; color: #555; }
+.icons { display: flex; gap: 11px; color: #666; align-items: center; }
+.icons svg { width: 18px; height: 18px; }
+.avatar { width: 32px; height: 32px; border-radius: 50%; background: url("avatar.png") center/cover no-repeat; display: flex; align-items: center; justify-content: center; }
+.layout { margin-top: 50px; min-height: calc(100vh - 50px); }
+.sidebar { position: fixed; left: 0; top: 50px; bottom: 0; width: 205px; background: #fff; border-right: 1px solid #eee; }
+.side-title { height: 53px; padding: 17px 20px; font-size: 15px; font-weight: 700; display: flex; justify-content: space-between; }
+.collapse { color: #888; }
+.menu { list-style: none; }
+.menu li { height: 44px; padding: 0 20px; display: flex; align-items: center; gap: 9px; color: #444; }
+.menu li.active { background: #e9f5ff; color: #2f8bf2; font-weight: 600; }
+.menu svg { width: 18px; height: 18px; flex-shrink: 0; }
+.menu li { cursor: pointer; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.menu li span.menu-text { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.side-foot { position: absolute; bottom: 0; left: 0; right: 0; height: 41px; border-top: 1px solid #eee; display: flex; align-items: center; justify-content: flex-end; padding-right: 14px; color: #888; }
+.main { margin-left: 205px; min-height: calc(100vh - 50px); }
+.tabs { height: 41px; background: #fff; border-bottom: 1px solid #e8e8e8; padding-left: 10px; display: flex; align-items: flex-end; }
+.tab { height: 34px; padding: 0 12px; display: flex; align-items: center; gap: 8px; background: #eef8ff; color: #2f8bf2; border-radius: 4px 4px 0 0; font-size: 13px; }
+.tab .x { color: #5c9ddb; }
+.content { padding: 10px; background: #f4f6fa; min-height: calc(100vh - 91px); }
+.detail-card { background: #fff; border-radius: 4px; border: 1px solid #f0f0f0; min-height: 560px; padding: 24px; }
+.footer-bar { height: 40px; background: #fff; border-top: 1px solid #e8e8e8; display: flex; align-items: center; justify-content: flex-end; padding: 0 16px; gap: 8px; margin-top: 8px; border-radius: 0 0 4px 4px; }
+.btn { height: 35px; padding: 0 15px; border: 0; border-radius: 4px; background: #3d8ff0; color: #fff; font-size: 14px; display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+.btn:hover { background: #66a8f7; }
+.btn-default { background: #fff; color: #333; border: 1px solid #d9d9d9; }
+.btn-default:hover { color: #3d8ff0; border-color: #3d8ff0; }
+.wm { position: fixed; inset: 0; pointer-events: none; z-index: 2; overflow: hidden; }
+.wm span { position: absolute; color: rgba(80,80,80,.06); font-size: 14px; transform: rotate(-20deg); white-space: nowrap; }
 </style>
 </head>
 <body>
 <header class="header">
-  <div class="logo"><span class="logo-mark"></span><span class="logo-text">Omall</span></div>
+  <div class="logo"><span class="logo-mark"></span><span class="logo-text">mall</span></div>
   <nav class="nav">
-    <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10l9-7 9 7v10a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg>设置</a>
-    <a class="active" href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><path d="M3.27 6.96L12 12l8.73-5.04M12 22V12"/></svg>商品</a>
-    <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 16l4-5 3 3 5-7"/></svg>营销</a>
-    <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 7h6M9 11h6M9 15h6"/></svg>订单</a>
-    <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="7" r="4"/><path d="M4 22a8 8 0 0116 0"/></svg>用户</a>
-    <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>内容</a>
-    <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5M10 19V9M16 19V3M22 19V13"/></svg>数据统计</a>
+    <a href="#" data-menu="设置"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 10l9-7 9 7v10a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M9 22V12h6v10"/></svg>设置</a>
+    <a class="active" href="#" data-menu="商品"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4A2 2 0 0021 16z"/><path d="M3.27 6.96L12 12l8.73-5.04M12 22V12"/></svg>商品</a>
+    <a href="#" data-menu="营销"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 16l4-5 3 3 5-7"/></svg>营销</a>
+    <a href="#" data-menu="订单"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 7h6M9 11h6M9 15h6"/></svg>订单</a>
+    <a href="#" data-menu="用户"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="7" r="4"/><path d="M4 22a8 8 0 0116 0"/></svg>用户</a>
+    <a href="#" data-menu="内容"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>内容</a>
+    <a href="#" data-menu="数据统计"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5M10 19V9M16 19V3M22 19V13"/></svg>数据统计</a>
   </nav>
-  <div class="right"><div class="search">⌕ <span>搜索</span><kbd>Ctrl K</kbd></div><span class="time">23:11:14 Tue 2026/9/15</span><div class="icons"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 18a4 4 0 01-.5-7.97A5.5 5.5 0 0117 8.5a4 4 0 01.5 7.97H7z"/><path d="M12 8v7m-3-3l3 3 3-3"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v6m0 0l-3-3m3 3l3-3"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 00.3 1.9l.1.1-1.8 1.8-.1-.1a1.7 1.7 0 00-1.9-.3 1.7 1.7 0 00-1 1.5v.1h-2.6v-.1a1.7 1.7 0 00-1-1.5 1.7 1.7 0 00-1.9.3l-.1.1-1.8-1.8.1-.1A1.7 1.7 0 008 15a1.7 1.7 0 00-1.5-1H6v-2.6h.1A1.7 1.7 0 008 10a1.7 1.7 0 00-.3-1.9l-.1-.1 1.8-1.8.1.1a1.7 1.7 0 001.9.3 1.7 1.7 0 001-1.5V5h2.6v.1a1.7 1.7 0 001 1.5 1.7 1.7 0 001.9-.3l.1-.1 1.8 1.8-.1.1a1.7 1.7 0 00-.3 1.9 1.7 1.7 0 001.5 1h.1V14h-.1a1.7 1.7 0 00-1.5 1z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16M4 19h16M8 5a4 4 0 000 14M16 5a4 4 0 000 14"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M21 16v5h-5"/></svg></div><div class="avatar">◉</div></div>
+  <div class="menu-panel" id="menuPanel"></div>
+  <div class="right"><div class="search"> <span>搜索</span><kbd>Ctrl K</kbd></div><span class="time">23:11:14 Tue 2026/9/15</span><div class="icons"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 18a4 4 0 01-.5-7.97A5.5 5.5 0 0117 8.5a4 4 0 01.5 7.97H7z"/><path d="M12 8v7m-3-3l3 3 3-3"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v6m0 0l-3-3m3 3l3-3"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 00.3 1.9l.1.1-1.8 1.8-.1-.1a1.7 1.7 0 00-1.9-.3 1.7 1.7 0 00-1 1.5v.1h-2.6v-.1a1.7 1.7 0 00-1-1.5 1.7 1.7 0 00-1.9.3l-.1.1-1.8-1.8.1-.1A1.7 1.7 0 008 15a1.7 1.7 0 00-1.5-1H6v-2.6h.1A1.7 1.7 0 008 10a1.7 1.7 0 00-.3-1.9l-.1-.1 1.8-1.8.1.1a1.7 1.7 0 001.9.3 1.7 1.7 0 001-1.5V5h2.6v.1a1.7 1.7 0 001 1.5 1.7 1.7 0 001.9-.3l.1-.1 1.8 1.8-.1.1a1.7 1.7 0 00-.3 1.9 1.7 1.7 0 001.5 1h.1V14h-.1a1.7 1.7 0 00-1.5 1z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16M4 19h16M8 5a4 4 0 000 14M16 5a4 4 0 000 14"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M21 16v5h-5"/></svg></div><div class="avatar"></div></div>
 </header>
+<div class="menu-mask" id="menuMask"></div>
 <div class="layout"><aside class="sidebar"><div class="side-title">商品管理<span class="collapse">‹‹</span></div><ul class="menu">
-  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7h18v13H3z"/><path d="M3 7l3-4h6l3 4"/></svg>基础商品库</li>
-  <li class="active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg>商品列表</li>
-  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v5h4"/></svg>官网商品列表</li>
-  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16v14H4z"/><path d="M8 9h8M8 13h8"/></svg>物料库存列表</li>
-  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v5h4M9 13h6M9 17h6"/></svg>商品同步日志</li>
-  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8v8M11 8v8M15 8v8"/></svg>客户 SKU</li>
-</ul><div class="side-foot">⚙</div></aside>
-<main class="main"><div class="tabs"><div class="tab">商品详情 <span class="x">×</span></div></div><section class="content"><div class="detail-content"></div><div class="footer-bar"></div></section></main></div>
+  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7h18v13H3z"/><path d="M3 7l3-4h6l3 4"/></svg><span class="menu-text" title="基础商品库">基础商品库</span></li>
+  <li class="active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg><span class="menu-text" title="商品列表">商品列表</span></li>
+  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v5h4"/></svg><span class="menu-text" title="官网商品列表">官网商品列表</span></li>
+  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16v14H4z"/><path d="M8 9h8M8 13h8"/></svg><span class="menu-text" title="物料库存列表">物料库存列表</span></li>
+  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v5h4M9 13h6M9 17h6"/></svg><span class="menu-text" title="商品同步日志">商品同步日志</span></li>
+  <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8v8M11 8v8M15 8v8"/></svg><span class="menu-text" title="客户 SKU">客户 SKU</span></li>
+</ul><div class="side-foot"></div></aside>
+<main class="main"><div class="tabs"><div class="tab">商品详情 <span class="x">×</span></div></div><section class="content"><div class="detail-card"></div></section></main></div>
 <div class="wm"><span style="left:0;top:250px">17722682469@163.com-SIT-260916-olight inner test only</span><span style="left:380px;top:160px">17722682469@163.com-SIT-260916-olight inner test only</span><span style="left:760px;top:350px">17722682469@163.com-SIT-260916-olight inner test only</span><span style="left:1080px;top:180px">17722682469@163.com-SIT-260916-olight inner test only</span><span style="left:200px;top:560px">17722682469@163.com-SIT-260916-olight inner test only</span></div>
+<script>
+const menus={设置:['首页','行为分析','基础设置','消息管理','风控管理','下载中心','系统设置','App配置','日志','短链'],商品:['商品管理','商品基础设置','商品营销','定制化'],营销:['打折促销','教官管理','互动营销','营销设置','红人推广','分销管理','预型问卷'],订单:['订单管理','召回管理'],用户:['用户管理','用户运营','专区设置'],内容:['页面设置','Blog','社区','经销商门店','SEO设置','文章内容','CRM内容'],数据统计:['数据统计']};
+const subMenus = {"行为分析":["页面访问报告"],"首页":["首页"],"基础设置":["全局设置","订单设置","售后配置","支付配置","区域管理","红人配置","其他设置"],"消息管理":["平台公告","系统消息","站内信","通知设置","短信发送记录","邮件发送记录","邮件变量模板","邮件推荐商品"],"风控管理":["订单预警","支付预警","预警日志","黑名单"],"下载中心":["下载中心"],"系统设置":["资源管理","配置中心","账号管理","部门管理","角色管理","字典管理","配置模块","功能指引","数据权限"],"App配置":["APP日志","APP版本控制"],"日志":["异常日志","操作日志","登录日志"],"短链":["短链管理"],"商品管理":["基础商品库","商品列表","官网商品列表","物料库存列表","商品同步日志","客户 SKU"],"商品基础设置":["商品分类","商品分组","规格列表","属性列表","属性组列表","属性合并","物料分组","筛选条件","光斑参数","商品分类排序配置"],"营销活动":["限时折扣","自由捆绑","O币抵扣","优惠券","优惠码"],"营销工具":["游戏列表","活动分组","奖池列表","活动弹出列表","幸运转盘","签到设置","会员有礼"],"营销模板":["好物排行","角标列表","全场提前","搜索推荐","购物卡"],"召回管理":["召回设置","召回订单"],"订单管理":["订单列表","售后管理","超时赔偿"],"订单设置":["包邮设置","配送方式","物流公司","自提点管理","特殊事件","超时赔偿"],"用户管理":["用户列表","订阅管理","小B申请"],"用户运营":["用户群组","会员等级","铁粉等级","权益列表","任务管理","O币设置","地址白名单","客户二维码","用户反馈","客户类型列表"],"专区设置":["会员专区","规则说明"],"用户权限":["账号管理","角色管理","数据权限"],"用户行为":["用户群组","会员等级","权益列表","任务管理"],"内容管理":["页面配置","广告管理","导航栏设置","个人中心配置"],"内容设置":["全局SEO","单页面SEO","商品SEO","固定页TDK"],"数据统计":["业绩报表","订单报表"],"数据统计看板":["业绩报表","订单报表"],"打折促销":["限时折扣","自由捆绑","O币抵扣","优惠券","优惠码"],"教官管理":["教官等级设置","教官订单列表","二维码记录列表","教官管理列表"],"互动营销":["游戏列表","活动分组","奖池列表","活动弹出列表","幸运转盘","签到设置","会员有礼","首单免邮","随货送礼","订单赠送","分享送礼","免费领取","小B活动","购物车营销","预约有礼","赠送活动","直播预约","爆品记录"],"营销设置":["好物排行","角标列表","全场提前","搜索推荐","购物卡"],"红人推广":["红人管理","红人佣金","红人短链查询","推广订单","结算列表","未结算佣金总表","分享设置","推广报告","红人发票列表","红人优惠码","红人申请","红人合作列表","媒体列表","媒体合作"],"分销管理":["分销用户","分销配置","分销订单","提现管理","分销问答"],"预型问卷":["问卷列表","问卷统计"],"页面设置":["页面配置","情人节留言","联系我们","广告管理","导航栏设置","秒杀专题设置","个人中心配置","底部栏设置","底部栏基本设置","新客活动配置"],"Blog":["Blog分类","Blog标签","Blog评价","Blog管理"],"社区":["社区管理","标签管理","试销管理"],"经销商门店":["经销商门店"],"SEO设置":["全局SEO","SEO公共URL_KEY","单页面SEO","商品SEO","广告管理SEO","Blog SEO","固定页TDK","自动巡检"],"文章内容":["信息管理","故事管理","产品说明书","资讯分类标签","EC文件管理","申请页管理","问答管理","创作活动","创作活动统计"],"CRM内容":["推送失败记录"],"商品营销":["个性推荐","商品推荐","搭配商品推荐规则列表","评论列表","评论模板","到货提醒","评论关键词","站外产品导航-红点","站外产品导航-轨道灯","枪套适配品牌管理","UGC精选"],"定制化":["定制化服务","图片分类","图片素材库"]};
+
+const panel = document.getElementById('menuPanel'), mask = document.getElementById('menuMask');
+const sideTitle = document.querySelector('.sidebar .side-title');
+const sideMenu = document.querySelector('.sidebar .menu');
+const tabText = document.querySelector('.tab');
+
+function renderSidebar(l2Name) {
+  const items = subMenus[l2Name] || [l2Name];
+  if (sideTitle) {
+    sideTitle.innerHTML = l2Name + '<span class="collapse">‹‹</span>';
+  }
+  if (sideMenu) {
+    sideMenu.innerHTML = items.map((item, idx) => (
+      '<li class="' + (idx === 0 ? 'active' : '') + '">' +
+        '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8v8M11 8v8M15 8v8"/></svg><span class="menu-text" title="' + item + '">' + item + '</span>' +
+      '</li>'
+    )).join('');
+    sideMenu.querySelectorAll('li').forEach(li => {
+      li.addEventListener('click', () => {
+        sideMenu.querySelectorAll('li').forEach(x => x.classList.remove('active'));
+        li.classList.add('active');
+        if (tabText) {
+          tabText.childNodes[0].nodeValue = li.textContent.trim() + ' ';
+        }
+      });
+    });
+  }
+}
+
+document.querySelectorAll('.nav a').forEach(a => a.addEventListener('click', e => {
+  e.preventDefault();
+  document.querySelectorAll('.nav a').forEach(x => x.classList.remove('active'));
+  a.classList.add('active');
+  const menuKey = a.dataset.menu;
+  const list = (typeof menus !== "undefined" && menus[menuKey]) || [];
+  panel.innerHTML = list.map(x => (
+    '<a href="#" data-l2="' + x + '">' +
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 12h8M12 8v8"/></svg>' + x +
+    '</a>'
+  )).join('');
+
+  panel.querySelectorAll('a').forEach(item => {
+    item.addEventListener('click', ev => {
+      ev.preventDefault();
+      const l2 = item.dataset.l2;
+      renderSidebar(l2);
+      panel.classList.remove('open');
+      mask.classList.remove('open');
+    });
+  });
+
+  panel.classList.add('open');
+  mask.classList.add('open');
+}));
+
+mask.addEventListener('click', () => {
+  panel.classList.remove('open');
+  mask.classList.remove('open');
+});
+</script>
 </body></html>
