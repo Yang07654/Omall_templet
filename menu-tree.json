@@ -1,0 +1,644 @@
+[
+  {
+    "id": "1805078383070195714",
+    "name": "IT云",
+    "icon": "iconshouye-2",
+    "level": 1,
+    "children": [
+      {
+        "id": "1805150487031492610",
+        "name": "首页",
+        "icon": "icon-home",
+        "route": "/",
+        "level": 2
+      },
+      {
+        "id": "1943592147884621825",
+        "name": "行为分析",
+        "icon": "icon-yingxiao",
+        "level": 2,
+        "children": [
+          {
+            "id": "1943592401438687233",
+            "name": "页面访问报告",
+            "icon": "icon-yingxiao",
+            "route": "behavioralAnalysis/pageAccessReport",
+            "level": 3
+          }
+        ]
+      },
+      {
+        "id": "1304341790240804865",
+        "name": "基础设置",
+        "icon": "icon-shop",
+        "level": 2,
+        "children": [
+          {
+            "id": "1869255837253472257",
+            "name": "全局设置",
+            "icon": "icon-question-circle",
+            "level": 3,
+            "children": [
+              {"id": "1339137836781064194", "name": "系统参数", "icon": "icon-OPS-zhangonghuizong", "route": "sys/parameter", "level": 4},
+              {"id": "1410805051166740483", "name": "订阅设置", "icon": "icon-shouye-jichushuju", "route": "sys/emailSubscribe", "level": 4},
+              {"id": "1578632806518591491", "name": "角标配置", "icon": "icon-down-square", "route": "sys/cornerMarkConfig", "level": 4},
+              {"id": "1686314668563369986", "name": "社媒平台", "icon": "icon-disconnect", "route": "sys/socialMedia", "level": 4},
+              {"id": "1440515892300402689", "name": "第三方平台", "icon": "icon-share", "route": "sys/sharePlatform", "level": 4},
+              {"id": "1957291822546210818", "name": "信用卡多渠道配置", "icon": "iconjintuikuan", "route": "sys/diversion", "level": 4}
+            ]
+          },
+          {
+            "id": "1869256432093859842",
+            "name": "订单设置",
+            "icon": "icon-timeout",
+            "level": 3,
+            "children": [
+              {"id": "1306469230496976897", "name": "包邮设置", "icon": "icon-build", "route": "sys/mailConfig", "level": 4},
+              {"id": "1430793897098792963", "name": "配送方式", "icon": "icon-printer", "route": "sys/distributionType", "level": 4},
+              {"id": "1679806893846958083", "name": "物流公司", "icon": "icon-bg-colors", "route": "sys/logistics", "level": 4},
+              {"id": "1682643866079240195", "name": "自提点管理", "icon": "icon-setting-fill", "route": "sys/pickupManagement", "level": 4},
+              {"id": "1734834944895168514", "name": "特殊事件", "icon": "icon-notification", "route": "market/bigEvent", "level": 4},
+              {"id": "1734037847262441474", "name": "超时赔偿", "icon": "icon-wrench-fill", "route": "market/overtimeCompensation", "level": 4}
+            ]
+          },
+          {
+            "id": "1869217126461575169",
+            "name": "售后配置",
+            "icon": "icon-OMS-yichangdingdan",
+            "level": 3,
+            "children": [
+              {"id": "1364032987038928898", "name": "售后原因", "icon": "icon-deploymentunit", "route": "sys/aftersales", "level": 4},
+              {"id": "1364033265679126530", "name": "售后地址", "icon": "icon-location", "route": "sys/settingAddress/index", "level": 4},
+              {"id": "1522127580080115714", "name": "非官网维修", "icon": "icon-scissor", "route": "sys/repair", "level": 4}
+            ]
+          },
+          {
+            "id": "1869217487440154625",
+            "name": "支付配置",
+            "icon": "icon-Dollar",
+            "level": 3,
+            "children": [
+              {"id": "1423250300631699459", "name": "支付管理", "icon": "icon-alipay", "route": "sys/payManage", "level": 4},
+              {"id": "1820991968793198594", "name": "支付回调页", "icon": "icon-OMS-weichengyunfeiyugu", "route": "sys/payCallBack", "level": 4}
+            ]
+          },
+          {
+            "id": "1869251112407764993",
+            "name": "区域管理",
+            "icon": "icon-OMS-cangkuguanli",
+            "level": 3,
+            "children": [
+              {"id": "1304348289885278209", "name": "国家区号", "icon": "icon-deleteteam", "route": "sys/countryCode", "level": 4},
+              {"id": "1304342797532270593", "name": "国家管理", "icon": "icon-flag", "route": "sys/countryManage", "level": 4},
+              {"id": "1329597445002153986", "name": "地区管理", "icon": "icon-flag", "route": "sys/stateManage", "level": 4}
+            ]
+          },
+          {
+            "id": "2013138490335043586",
+            "name": "红人配置",
+            "icon": "icon-cluster",
+            "level": 3,
+            "children": [
+              {"id": "2013139318923993090", "name": "Source&Medium参数设置", "icon": "icon-OMS-disanfangcangchubiaoqian", "route": "sys/hotSystem/sourceAndMediumSetting", "level": 4},
+              {"id": "2013906112982949889", "name": "Campaign参数设置", "icon": "icon-calculator", "route": "sys/hotSystem/campaignSetting", "level": 4},
+              {"id": "2013908071949410306", "name": "其他参数设置", "icon": "icon-codelibrary", "route": "sys/hotSystem/otherSetting", "level": 4}
+            ]
+          },
+          {
+            "id": "1869256211666407425",
+            "name": "其他设置",
+            "icon": "icon-setting",
+            "level": 3,
+            "children": [
+              {"id": "1506096133443502082", "name": "产品提要", "icon": "icon-folder-fill", "route": "sys/productFeed", "level": 4},
+              {"id": "1730520365297905667", "name": "标签管理", "icon": "icon-tag", "route": "sys/commentTag", "level": 4}
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1376832969638858754",
+        "name": "消息管理",
+        "icon": "icon-wrench-fill",
+        "level": 2,
+        "children": [
+          {"id": "1848534958694387713", "name": "平台公告", "icon": "icon-solution", "route": "sys/announcement", "level": 3},
+          {"id": "1848536715231154177", "name": "系统消息", "icon": "icon-outdent", "route": "sys/sysMessagesList", "level": 3},
+          {"id": "1848555775671062530", "name": "站内信", "icon": "icon-filedone", "route": "sys/message", "level": 3},
+          {"id": "1376833381926359041", "name": "通知设置", "icon": "icon-wrench-fill", "route": "sys/messageNotification/notificationSettings", "level": 3},
+          {"id": "1871508345426382850", "name": "短信发送记录", "icon": "icon-dingdan1", "route": "sys/messageNotification/smsSendingRecord", "level": 3},
+          {"id": "1871508811799433218", "name": "邮件发送记录", "icon": "icon-OMS-dengdaishenhedingdan", "route": "sys/messageNotification/mailSendingRecord", "level": 3},
+          {"id": "1965307022302040065", "name": "邮件变量模板", "icon": "icon-OMS-xuqiuguanlixitong", "route": "sys/messageNotification/mailTemplate", "level": 3},
+          {"id": "1965622420528484354", "name": "邮件推荐商品", "icon": "icon-mail", "route": "market/mailRecommend", "level": 3}
+        ]
+      },
+      {
+        "id": "1747139213415788547",
+        "name": "风控管理",
+        "icon": "icon-radarchart",
+        "level": 2,
+        "children": [
+          {
+            "id": "1747139632904908802",
+            "name": "订单预警",
+            "icon": "icon-solution",
+            "level": 3,
+            "children": [
+              {"id": "1747533899347374083", "name": "订单预警设置", "icon": "icon-setting-fill", "route": "sys/earlyWarning/orderWarning", "level": 4},
+              {"id": "1772501299246346242", "name": "重复下单设置", "icon": "icon-time-circle", "route": "sys/earlyWarning/doubleBooking", "level": 4}
+            ]
+          },
+          {
+            "id": "1748258736927780867",
+            "name": "支付预警",
+            "icon": "icon-error",
+            "level": 3,
+            "children": [
+              {"id": "1750419055548674050", "name": "支付预警设置", "icon": "icon-setting", "route": "sys/paymentWarning/setting", "level": 4},
+              {"id": "1748274591287848963", "name": "支付参数对照", "icon": "icon-snippets", "route": "sys/paymentWarning/paymentComparison", "level": 4}
+            ]
+          },
+          {
+            "id": "1869262745129553921",
+            "name": "预警日志",
+            "icon": "icona-ziyuan11",
+            "level": 3,
+            "children": [
+              {"id": "1748273305792393218", "name": "支付预警日志", "icon": "icon-heatmap", "route": "sys/paymentWarning/warningLog", "level": 4},
+              {"id": "1748271276927856643", "name": "支付报错日志", "icon": "icon-read", "route": "sys/paymentWarning/errorLog", "level": 4},
+              {"id": "1747529722982412291", "name": "黑名单日志", "icon": "icon-file-zip", "route": "sys/earlyWarning/log", "level": 4},
+              {"id": "1772502112035352578", "name": "重复下单日志", "icon": "icon-border-outer", "route": "sys/earlyWarning/doubleBookingLog", "level": 4}
+            ]
+          },
+          {
+            "id": "1869262977561104386",
+            "name": "黑名单",
+            "icon": "icon-OPS-yubeihuolichi",
+            "level": 3,
+            "children": [
+              {"id": "1747140279368790018", "name": "邮箱黑名单", "icon": "icon-IE", "route": "sys/earlyWarning/email", "level": 4},
+              {"id": "1747194689314729986", "name": "地址黑名单", "icon": "icon-home", "route": "sys/earlyWarning/address", "level": 4},
+              {"id": "1747194432182923267", "name": "电话黑名单", "icon": "icon-tablet", "route": "sys/earlyWarning/phone", "level": 4},
+              {"id": "1747194007773884418", "name": "IP地址黑名单", "icon": "icon-location", "route": "sys/earlyWarning/ip", "level": 4}
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1856869571206967297",
+        "name": "下载中心",
+        "icon": "icon-OMS-hedanguize",
+        "level": 2,
+        "children": [
+          {"id": "1856869723414065154", "name": "下载中心", "icon": "", "route": "sys/exportList/ExportDataList", "level": 3}
+        ]
+      },
+      {
+        "id": "1067246875800000019",
+        "name": "系统设置",
+        "icon": "icon-OMS-wuliuxitong",
+        "level": 2,
+        "children": [
+          {"id": "1067246875800000020", "name": "资源管理", "icon": "icon-unorderedlist", "route": "sys/resource", "level": 3},
+          {"id": "1928359290673217537", "name": "配置中心", "icon": "icon-shezhi1", "route": "sys/config", "level": 3},
+          {"id": "1067246875800000003", "name": "账号管理", "icon": "icon-user", "route": "sys/userManage", "level": 3},
+          {"id": "1067246875800000009", "name": "部门管理", "icon": "icon-apartment", "route": "sys/dept", "level": 3},
+          {"id": "1067246875800000014", "name": "角色管理", "icon": "icon-team", "route": "sys/role", "level": 3},
+          {"id": "1067246875800000031", "name": "字典管理", "icon": "icon-gold", "route": "sys/dict", "level": 3},
+          {"id": "1698879306666147843", "name": "配置模块", "icon": "icon-boxplot-fill", "route": "sys/moduleConfig", "level": 3},
+          {"id": "1910648039982931970", "name": "功能指引", "icon": "", "route": "functionalGuidance", "level": 3},
+          {"id": "1983738564110381058", "name": "数据权限", "icon": "icon-yongzhangguanli", "route": "sys/dataPermissions", "level": 3}
+        ]
+      },
+      {
+        "id": "1869214420799950850",
+        "name": "App配置",
+        "icon": "",
+        "level": 2,
+        "children": [
+          {"id": "1849732409042792449", "name": "APP日志", "icon": "icon-filedone", "route": "sys/appHardware", "level": 3},
+          {"id": "1749979834107146243", "name": "APP版本控制", "icon": "icon-android-fill", "route": "sys/appVersion", "level": 3}
+        ]
+      },
+      {
+        "id": "1869260600124739586",
+        "name": "日志",
+        "icon": "icona-ziyuan4",
+        "level": 2,
+        "children": [
+          {"id": "1438789996413636611", "name": "异常日志", "icon": "icon-play-square", "route": "sys/abnormalLog", "level": 3},
+          {"id": "1439099237888348163", "name": "操作日志", "icon": "icon-detail", "route": "sys/operationLog", "level": 3},
+          {"id": "1439462696148717570", "name": "登录日志", "icon": "icon-right-square", "route": "sys/loginLog", "level": 3}
+        ]
+      },
+      {
+        "id": "2007746831904546817",
+        "name": "短链",
+        "icon": "",
+        "level": 2,
+        "children": [
+          {"id": "2004395336127627265", "name": "短链管理", "icon": "icon-OMS-kucunquanlianlu", "route": "market/hotList/shortChainConfiguration", "level": 3}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1856962781807767554",
+    "name": "商品",
+    "icon": "icon-shangpin",
+    "level": 1,
+    "children": [
+      {
+        "id": "1303600065079676929",
+        "name": "商品管理",
+        "icon": "icon-gold",
+        "level": 2,
+        "children": [
+          {"id": "1817807826235486210", "name": "基础商品库", "icon": "icon-qinghua-xinxizhongxin", "route": "sys/commodity/basicLibrary", "level": 3},
+          {"id": "1303606666184364034", "name": "商品列表", "icon": "icon-check-circle", "route": "sys/commodity/list", "level": 3},
+          {"id": "1936989438909792257", "name": "官网商品列表", "icon": "icon-OMS-bumenyusuanguanli", "route": "sys/commodity/officialList", "level": 3},
+          {"id": "1997842004214947842", "name": "物料库存列表", "icon": "icon-dingdan", "route": "sys/commodity/materialInventoryList", "level": 3},
+          {"id": "1603352887013273602", "name": "商品同步日志", "icon": "icon-read", "route": "sys/commodity/asyncLog", "level": 3},
+          {"id": "2087069079171690497", "name": "客户 SKU", "icon": "icon-OMS-yuanshiliushuiguanli", "route": "sys/commodity/customerSku", "level": 3}
+        ]
+      },
+      {
+        "id": "1869270322483662850",
+        "name": "商品基础设置",
+        "icon": "icona-ziyuan11",
+        "level": 2,
+        "children": [
+          {"id": "1303608487116279810", "name": "商品分类", "icon": "icon-compass", "route": "sys/commodity/categoryList", "level": 3},
+          {"id": "1345915329957515265", "name": "商品分组", "icon": "icon-apartment", "route": "sys/commodity/commodityGroup", "level": 3},
+          {"id": "1303606623553458178", "name": "规格列表", "icon": "icon-database", "route": "sys/commodity/standardList", "level": 3},
+          {"id": "1303606832584986625", "name": "属性列表", "icon": "icon-filedone", "route": "sys/commodity/attributeList", "level": 3},
+          {"id": "1815294654727385091", "name": "属性组列表", "icon": "icon-up-circle", "route": "sys/commodity/attributeListGroup", "level": 3},
+          {"id": "1934814546680528897", "name": "属性合并", "icon": "icon-gateway", "route": "sys/commodity/propertyMerging", "level": 3},
+          {"id": "1767364104937992194", "name": "物料分组", "icon": "icon-rest", "route": "sys/commodity/itemGroup", "level": 3},
+          {"id": "1689535399661146115", "name": "筛选条件", "icon": "icon-pointmap", "route": "sys/commodity/filterCriteriaList", "level": 3},
+          {"id": "1744268211950301187", "name": "光斑参数", "icon": "icon-thunderbolt", "route": "sys/commodity/spotParameters", "level": 3},
+          {"id": "2087451287040970753", "name": "商品分类排序配置", "icon": "icon-OMS-tongbushezhi", "route": "sys/commodity/sortingConfiguration", "level": 3}
+        ]
+      },
+      {
+        "id": "1869270547059281922",
+        "name": "商品营销",
+        "icon": "iconjihuajianli",
+        "level": 2,
+        "children": [
+          {"id": "1406824292722593795", "name": "商品推荐", "icon": "icon-OMS-jiesuanzhongxin2", "route": "sys/commodity/recommend", "level": 3},
+          {"id": "2053726598419374081", "name": "搭配商品推荐规则列表", "icon": "icon-setting", "route": "sys/commodity/recommendRules", "level": 3},
+          {"id": "1375269947464142850", "name": "评论列表", "icon": "icon-message", "route": "sys/commodity/comment", "level": 3},
+          {"id": "1729775430559903746", "name": "评论模板", "icon": "icon-filedone", "route": "sys/commodity/commentTemplateList", "level": 3},
+          {"id": "1571733085891956739", "name": "到货提醒", "icon": "icon-bell", "route": "sys/commodity/arrivalReminderList", "level": 3},
+          {"id": "1809060083974451203", "name": "评论关键词", "icon": "icon-apartment", "route": "sys/commodity/commentKeywords", "level": 3},
+          {"id": "1854059187190992897", "name": "站外产品导航-红点", "icon": "icon-home-fill", "route": "market/offSiteProductNavigation", "level": 3},
+          {"id": "1998319362327846913", "name": "站外产品导航-轨道灯", "icon": "icon-OMS-duoyuyan", "route": "market/trackLightNavigation", "level": 3},
+          {"id": "2003021961979371521", "name": "枪套适配品牌管理", "icon": "icon-Import", "route": "sys/commodity/holster", "level": 3},
+          {"id": "2034156895523446786", "name": "UGC精选", "icon": "icon-securityscan", "route": "sys/commodity/ugcConcentration", "level": 3}
+        ]
+      },
+      {
+        "id": "1772813783480655875",
+        "name": "定制化",
+        "icon": "icon-CodeSandbox",
+        "level": 2,
+        "children": [
+          {"id": "1772814521409724418", "name": "定制化服务", "icon": "icon-calendar-check", "route": "customization/customizedServices", "level": 3},
+          {"id": "1777958614840029187", "name": "图片分类", "icon": "icon-detail", "route": "customization/customizedPictures/patternClassification", "level": 3},
+          {"id": "1850886700873650177", "name": "图片素材库", "icon": "icon-shujukanban1", "route": "customization/picMaterialWarehouse", "level": 3}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1805112691726135299",
+    "name": "营销",
+    "icon": "icon-yingxiao",
+    "level": 1,
+    "children": [
+      {
+        "id": "1869275315404115969",
+        "name": "打折促销",
+        "icon": "icon-YUAN",
+        "level": 2,
+        "children": [
+          {"id": "1340989933625462785", "name": "限时折扣", "icon": "icon-reloadtime", "route": "market/limitedTimeDiscount", "level": 3},
+          {"id": "1574311235444379650", "name": "自由捆绑", "icon": "icon-boxplot-fill", "route": "market/freeBundle", "level": 3},
+          {"id": "1747074723345182722", "name": "O币抵扣", "icon": "icon-pinzhiguanli", "route": "user/oCoinDedution", "level": 3},
+          {"id": "1354669491612471298", "name": "优惠券", "icon": "icon-file-markdown", "route": "sys/marketing/couponsPromotion", "level": 3},
+          {"id": "1354669661209153538", "name": "优惠码", "icon": "icon-appstore", "route": "sys/marketing/couponCode", "level": 3}
+        ]
+      },
+      {
+        "id": "2064600096013209601",
+        "name": "教官管理",
+        "icon": "icon-appstore",
+        "level": 2,
+        "children": [
+          {"id": "2064602383469170689", "name": "教官等级设置", "icon": "icon-OPS-zhengshihuolichi", "route": "market/instructorManagement/instructorLevel", "level": 3},
+          {"id": "2066356399702200321", "name": "教官订单列表", "icon": "icon-OMS-fahuoguanli1", "route": "market/instructorManagement/orderList", "level": 3},
+          {"id": "2071841530445484034", "name": "二维码记录列表", "icon": "icon-container", "route": "market/instructorManagement/qrCodeRecordList", "level": 3},
+          {"id": "2065319845277913090", "name": "教官管理列表", "icon": "icon-OMS-huodaiguanli", "route": "market/instructorManagement/managementList", "level": 3}
+        ]
+      },
+      {
+        "id": "1340989418166472705",
+        "name": "互动营销",
+        "icon": "icon-flag",
+        "level": 2,
+        "children": [
+          {"id": "1901881807748894721", "name": "游戏列表", "icon": "icon-dingdan", "route": "market/gameList", "level": 3},
+          {"id": "1901924871364317186", "name": "活动分组", "icon": "icon-OPS-qinglingmingxi", "route": "market/activityGrouping", "level": 3},
+          {"id": "1902560130703462401", "name": "奖池列表", "icon": "icon-tubiao_s", "route": "market/jackpotList", "level": 3},
+          {"id": "1901814057605173250", "name": "活动弹出列表", "icon": "icon-neirong", "route": "market/activityPopUpSettings", "level": 3},
+          {"id": "1435514486912897027", "name": "幸运转盘", "icon": "icon-chrome", "route": "market/rotarytable", "level": 3},
+          {"id": "1752239404191002626", "name": "签到设置", "icon": "icon-check-circle-fill", "route": "market/sign-in/index", "level": 3},
+          {"id": "1403605028997877763", "name": "会员有礼", "icon": "icon-fire-fill", "route": "market/memberGift", "level": 3},
+          {"id": "1752592908157898754", "name": "首单免邮", "icon": "icon-slack", "route": "market/firstOrderFree", "level": 3},
+          {"id": "1640194198231400451", "name": "随货送礼", "icon": "icon-gift-fill", "route": "market/goodsWithGift", "level": 3},
+          {"id": "1349631721407959041", "name": "订单赠送", "icon": "icon-OMS-xuqiuguanlixitong", "route": "market/orderGift", "level": 3},
+          {"id": "1580842862437830659", "name": "分享送礼", "icon": "icon-share", "route": "market/shareGift", "level": 3},
+          {"id": "1689541826081460226", "name": "免费领取", "icon": "icon-gift", "route": "market/freegoods/index", "level": 3},
+          {"id": "1848250504129998850", "name": "小B活动", "icon": "icon-Dollar", "route": "sys/marketing/accountCumulativeBalance", "level": 3},
+          {"id": "1452906676471386115", "name": "购物车营销", "icon": "icon-mail", "route": "market/cartEmailNotice", "level": 3},
+          {"id": "1944645737782407169", "name": "预约有礼", "icon": "icon-gift", "route": "market/reservationGifts", "level": 3},
+          {"id": "2031195344248119298", "name": "赠送活动", "icon": "icon-PCduanyulan", "route": "market/giftList", "level": 3},
+          {
+            "id": "2061347463810179074",
+            "name": "直播预约",
+            "icon": "icon-play-circle",
+            "route": "market/reservedLive",
+            "level": 3,
+            "children": [
+              {"id": "2063874789060825090", "name": "活动列表", "icon": "", "route": "market/reservedLive/reservedLiveActivity", "level": 4},
+              {"id": "2063872338136059905", "name": "用户记录", "icon": "", "route": "market/reservedLive", "level": 4}
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1869275666458972161",
+        "name": "营销设置",
+        "icon": "iconshouye-2",
+        "level": 2,
+        "children": [
+          {"id": "1767790149180907522", "name": "好物排行", "icon": "icon-trophy-fill", "route": "market/goodThings", "level": 3},
+          {"id": "1578633308035715075", "name": "角标列表", "icon": "icon-down-square", "route": "market/cornerMark", "level": 3},
+          {"id": "1677919143378329602", "name": "全场提前", "icon": "icon-fire-fill", "route": "sys/marketing/buyInAdvance", "level": 3},
+          {"id": "1853673756393836545", "name": "搜索推荐", "icon": "icon-zoomin", "route": "market/searchRecommendations", "level": 3},
+          {"id": "1476360483176099843", "name": "购物卡", "icon": "icon-moneycollect", "route": "market/shopCard", "level": 3}
+        ]
+      },
+      {
+        "id": "1383288783320829954",
+        "name": "红人推广",
+        "icon": "icon-team",
+        "level": 2,
+        "children": [
+          {"id": "1383292648900448257", "name": "红人管理", "icon": "icon-file-text", "route": "market/hotList/list", "level": 3},
+          {"id": "1984185114947887106", "name": "红人佣金", "icon": "icon-Dollar", "route": "market/hotList/commission", "level": 3},
+          {"id": "1985901958478045185", "name": "红人短链查询", "icon": "icon-OMS-kucunquanlianlu", "route": "market/hotList/short", "level": 3},
+          {"id": "1384025376092508161", "name": "推广订单", "icon": "icon-detail", "route": "market/hotList/orderList", "level": 3},
+          {"id": "1909134742636896258", "name": "结算列表", "icon": "icon-laptop", "route": "market/settlementList", "level": 3},
+          {"id": "1911591519458598914", "name": "未结算佣金总表", "icon": "icon-OMS-daorujilu", "route": "market/hotList/unsettledCommission", "level": 3},
+          {"id": "1385407397305962498", "name": "分享设置", "icon": "icon-share", "route": "market/hotList/shareChannel", "level": 3},
+          {"id": "1422806073393205250", "name": "推广报告", "icon": "icon-printer-fill", "route": "market/hotList/distributionReport", "level": 3},
+          {"id": "1911605056566370305", "name": "红人发票列表", "icon": "icon-quanbufenlei", "route": "market/hotList/invoiceList", "level": 3},
+          {"id": "1412284128138547201", "name": "红人优惠码", "icon": "icon-qrcode", "route": "market/hotList/streamerCode", "level": 3},
+          {"id": "1968928899545223169", "name": "红人申请", "icon": "icon-star-fill", "route": "market/hotList/kol", "level": 3},
+          {"id": "1987063251671064577", "name": "红人合作列表", "icon": "icon-OMS-yikurukudengjibiao", "route": "market/hotList/celebrityCooperationList", "level": 3},
+          {"id": "1983813855843381249", "name": "媒体列表", "icon": "icon-barcode", "route": "market/mediaList", "level": 3},
+          {"id": "1990356711454941185", "name": "媒体合作", "icon": "icon-OMS-huodaiguanli", "route": "market/hotList/mediaCooperation", "level": 3}
+        ]
+      },
+      {
+        "id": "1440578973554626563",
+        "name": "分销管理",
+        "icon": "icon-barchart",
+        "level": 2,
+        "children": [
+          {"id": "1937333761228587010", "name": "分销用户", "icon": "icon-yonghu1", "route": "distribution/user", "level": 3},
+          {"id": "1440580465225289730", "name": "分销配置", "icon": "icon-setting", "route": "distribution/configuration", "level": 3},
+          {"id": "1442466927533281283", "name": "分销订单", "icon": "icon-container", "route": "distribution/orderList", "level": 3},
+          {"id": "1945076771070111746", "name": "提现管理", "icon": "icon-propertysafety", "route": "distribution/withdrawal", "level": 3},
+          {"id": "1765577707018579971", "name": "分销问答", "icon": "icon-question-circle-fill", "route": "distribution/faqs-list", "level": 3}
+        ]
+      },
+      {
+        "id": "1807669989711458306",
+        "name": "预型问卷",
+        "icon": "icon-diff-fill",
+        "route": "sys/preformQuestion/list",
+        "level": 2,
+        "children": [
+          {"id": "1808371665636339715", "name": "问卷列表", "icon": "icon-menu", "route": "sys/preformQuestion/list", "level": 3},
+          {"id": "1808431621370720259", "name": "问卷统计", "icon": "icon-project", "route": "sys/preformQuestion/statistics", "level": 3}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1856965760204009474",
+    "name": "订单",
+    "icon": "icon-dingdan1",
+    "level": 1,
+    "children": [
+      {
+        "id": "1314766248269058050",
+        "name": "订单管理",
+        "icon": "icon-gateway",
+        "level": 2,
+        "children": [
+          {"id": "1314767473253289986", "name": "订单列表", "icon": "icon-OMS-touchengyunfeiyugu", "route": "order/orderList", "level": 3},
+          {"id": "1354344387573633026", "name": "售后管理", "icon": "icon-OMS-bumenyusuanguanli", "route": "order/afterSales", "level": 3},
+          {"id": "1734759016877862914", "name": "超时赔偿", "icon": "icon-detail", "route": "order/logisticsCompensationOrder", "level": 3}
+        ]
+      },
+      {
+        "id": "1867085846333669377",
+        "name": "召回管理",
+        "icon": "icon-OPS-fendouzheshenbao",
+        "level": 2,
+        "children": [
+          {"id": "1478210178303307779", "name": "召回设置", "icon": "icon-sever-fill", "route": "order/aftersettings", "level": 3},
+          {"id": "1470585229736587267", "name": "召回订单", "icon": "icon-boxplot-fill", "route": "order/recallList", "level": 3}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1805115764456468481",
+    "name": "用户",
+    "icon": "icon-yonghu1",
+    "level": 1,
+    "children": [
+      {
+        "id": "1856957529092124673",
+        "name": "用户管理",
+        "icon": "icon-OMS-churukumingxi",
+        "level": 2,
+        "children": [
+          {"id": "1308700800834342914", "name": "用户列表", "icon": "icon-detail", "route": "sys/users/userList/index", "level": 3},
+          {"id": "1409420343098920962", "name": "订阅管理", "icon": "icon-file-copy", "route": "sys/users/subscribers", "level": 3},
+          {"id": "1423552378621054979", "name": "小B申请", "icon": "icon-filedone", "route": "market/dealers", "level": 3}
+        ]
+      },
+      {
+        "id": "1308638519635218434",
+        "name": "用户运营",
+        "icon": "icon-user",
+        "level": 2,
+        "children": [
+          {"id": "1308689788903100418", "name": "用户群组", "icon": "icon-team", "route": "user/userGroup", "level": 3},
+          {"id": "1341280115696259074", "name": "会员等级", "icon": "icon-crown", "route": "sys/users/Membership/index", "level": 3},
+          {"id": "1735273291643957250", "name": "铁粉等级", "icon": "icon-deploymentunit", "route": "sys/users/ironPowder/index", "level": 3},
+          {"id": "1836254442028978178", "name": "权益列表", "icon": "", "route": "sys/users/MembershipBenefits/index", "level": 3},
+          {"id": "1339759702486994946", "name": "任务管理", "icon": "icon-gift", "route": "user/taskManagement", "level": 3},
+          {"id": "1845788000594612225", "name": "O币设置", "icon": "", "route": "user/oCoinSetting", "level": 3},
+          {"id": "1640183503855108098", "name": "地址白名单", "icon": "icon-home", "route": "sys/users/addressWhiteList/index", "level": 3},
+          {"id": "1778976252077092866", "name": "客户二维码", "icon": "icon-qrcode", "route": "sys/users/customerQrcode", "level": 3},
+          {"id": "1689961910092435458", "name": "用户反馈", "icon": "icon-warning-circle", "route": "sys/marketing/contactUs", "level": 3},
+          {"id": "2075459390663708673", "name": "客户类型列表", "icon": "", "route": "sys/users/superType", "level": 3}
+        ]
+      },
+      {
+        "id": "1856957270353899521",
+        "name": "专区设置",
+        "icon": "icon-shouye-jichushuju",
+        "level": 2,
+        "children": [
+          {"id": "1405810925471977474", "name": "会员专区", "icon": "icon-crown", "route": "sys/users/vip/index", "level": 3},
+          {"id": "1356427841387810818", "name": "规则说明", "icon": "icon-trademark", "route": "sys/users/rule", "level": 3}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1854785663111049217",
+    "name": "内容",
+    "icon": "icon-neirong",
+    "level": 1,
+    "children": [
+      {
+        "id": "1668864121921081347",
+        "name": "页面设置",
+        "icon": "icon-laptop",
+        "level": 2,
+        "children": [
+          {"id": "1822913270718267394", "name": "页面配置", "icon": "icon-ico_wupinguanli_xiangmuxinxiweihu", "route": "sys/marketing/pageSetup", "level": 3},
+          {"id": "1878649634879516673", "name": "情人节留言", "icon": "icon-heart-fill", "route": "content/valentine", "level": 3},
+          {"id": "1904495333118218242", "name": "联系我们", "icon": "icon-OMS-touchengyunfeiyugu", "route": "sys/contactUs", "level": 3},
+          {"id": "1318007831646965761", "name": "广告管理", "icon": "icon-border", "route": "sys/mall/config/advertising", "level": 3},
+          {"id": "1318425523486986241", "name": "导航栏设置", "icon": "icon-border-inner", "route": "sys/mall/config/bar/index", "level": 3},
+          {"id": "1714176169450270722", "name": "秒杀专题设置", "icon": "icon-setting", "route": "sys/marketing/thematicSetting", "level": 3},
+          {"id": "1595011105100500994", "name": "个人中心配置", "icon": "icon-adduser", "route": "sys/personalConfig", "level": 3},
+          {"id": "1347065528155295746", "name": "底部栏设置", "icon": "icon-robot", "route": "sys/mall/config/footerSetup", "level": 3},
+          {"id": "1871510886830673922", "name": "底部栏基本设置", "icon": "icon-OMS-wuliuxitong", "route": "sys/mall/config/footerSetup/basicAddOrUpdate", "level": 3},
+          {"id": "1956236003329978370", "name": "新客活动配置", "icon": "icon-gift", "route": "sys/newCustomerActivity", "level": 3}
+        ]
+      },
+      {
+        "id": "1848595889302458370",
+        "name": "Blog",
+        "icon": "icon-OMS-dingdanzhongxin",
+        "level": 2,
+        "children": [
+          {"id": "1422110522393677826", "name": "Blog分类", "icon": "icon-appstore", "route": "blog/blogCategory", "level": 3},
+          {"id": "1422438716070088706", "name": "Blog标签", "icon": "icon-tags", "route": "blog/blogTags", "level": 3},
+          {"id": "1422439331756167171", "name": "Blog评价", "icon": "icon-edit-square", "route": "blog/blogComment", "level": 3},
+          {"id": "1848596273186131969", "name": "Blog管理", "icon": "icon-OMS-yikurukudengjibiao", "route": "market/blog/blogManagement", "level": 3}
+        ]
+      },
+      {
+        "id": "1854039845808214017",
+        "name": "社区",
+        "icon": "icon-shouye-xitongshezhi",
+        "level": 2,
+        "children": [
+          {"id": "1854040066076282882", "name": "社区管理", "icon": "icon-shouye-shouye", "route": "market/community", "level": 3},
+          {"id": "1854040717732712449", "name": "标签管理", "icon": "icon-attachment", "route": "market/community/tagManagement", "level": 3},
+          {"id": "1854042074061574145", "name": "试销管理", "icon": "icon-wuliaoxianxing", "route": "market/community/commodities", "level": 3}
+        ]
+      },
+      {
+        "id": "1857326328781860866",
+        "name": "经销商门店",
+        "icon": "icon-OMS-kucunzhongxin",
+        "level": 2,
+        "children": [
+          {"id": "1790927007476596738", "name": "经销商门店", "icon": "icon-flag", "route": "market/salesPoints", "level": 3}
+        ]
+      },
+      {
+        "id": "1383297680521744385",
+        "name": "SEO设置",
+        "icon": "icon-earth",
+        "level": 2,
+        "children": [
+          {"id": "1385419624998162434", "name": "全局SEO", "icon": "icon-trophy", "route": "content/seo/global", "level": 3},
+          {"id": "1940309621879521281", "name": "SEO公共URL_KEY", "icon": "", "route": "content/seo/urlKey", "level": 3},
+          {"id": "1423166857080131587", "name": "单页面SEO", "icon": "icon-OMS-disanfangcangchubiaoqian", "route": "content/seo/singlePage", "level": 3},
+          {"id": "1383303234250002433", "name": "商品SEO", "icon": "", "route": "content/seo/goodsSeo", "level": 3},
+          {"id": "1409420656862220291", "name": "广告管理SEO", "icon": "icon-securityscan", "route": "content/seo/advertising", "level": 3},
+          {"id": "1422463755498737666", "name": "Blog SEO", "icon": "", "route": "content/seo/blogSeo", "level": 3},
+          {"id": "1422536307285872643", "name": "固定页TDK", "icon": "icon-up-circle", "route": "content/seo/staticTdk", "level": 3},
+          {
+            "id": "1719263733471502339",
+            "name": "自动巡检",
+            "icon": "",
+            "level": 3,
+            "children": [
+              {"id": "1720309598709604354", "name": "巡检设置", "icon": "", "route": "content/seo/automaticInspection/setup", "level": 4},
+              {"id": "1813086690188783619", "name": "巡检结果", "icon": "icon-OMS-biaoqianguize", "route": "content/seo/automaticInspection/results", "level": 4}
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1869299096440901634",
+        "name": "文章内容",
+        "icon": "iconweibiaoti2fuzhi07",
+        "level": 2,
+        "children": [
+          {"id": "1348821258436792321", "name": "信息管理", "icon": "icon-OMS-shangpinzhongxin-1", "route": "market/infoManage", "level": 3},
+          {"id": "1434712749167792130", "name": "故事管理", "icon": "icon-read", "route": "sys/ShoppingMall/story/index", "level": 3},
+          {"id": "1902562783533633538", "name": "产品说明书", "icon": "icon-OMS-zaitukucunqingdanliebiao", "route": "market/instructionBook", "level": 3},
+          {"id": "1902980541232615425", "name": "资讯分类标签", "icon": "", "route": "market/informationTags", "level": 3},
+          {"id": "1983018938078523393", "name": "EC文件管理", "icon": "icona-ziyuan4", "route": "content/article/ecFile", "level": 3},
+          {"id": "2011686367676211201", "name": "申请页管理", "icon": "icon-OPS-fendouzheshenbao", "route": "content/article/applyForm", "level": 3},
+          {"id": "1409833935073890306", "name": "问答管理", "icon": "icon-question-circle", "route": "market/faqs", "level": 3},
+          {"id": "2029739674726440961", "name": "创作活动", "icon": "icon-OPS-huolikanban", "route": "content/article/creationActivity", "level": 3},
+          {"id": "2029740601147531265", "name": "创作活动统计", "icon": "icon-OPS-huolichijianjie", "route": "content/article/creationActivityStats", "level": 3}
+        ]
+      },
+      {
+        "id": "2041800874420273154",
+        "name": "CRM内容",
+        "icon": "icontongzhi",
+        "level": 2,
+        "children": [
+          {"id": "2041794615625318401", "name": "推送失败记录", "icon": "iconqudaofenxiang", "route": "sys/pushFailedLog", "level": 3}
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1405857525925859331",
+    "name": "数据统计",
+    "icon": "icon-control",
+    "level": 1,
+    "children": [
+      {
+        "id": "1869675551565910018",
+        "name": "数据统计",
+        "icon": "icon-control",
+        "level": 2,
+        "children": [
+          {"id": "1405858733210128387", "name": "业绩报表", "icon": "icon-layout", "route": "dataStatistics/performanceReports", "level": 3},
+          {"id": "1406128669857861635", "name": "订单报表", "icon": "icon-project", "route": "dataStatistics/orderReports", "level": 3}
+        ]
+      }
+    ]
+  }
+]
