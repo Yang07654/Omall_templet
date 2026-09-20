@@ -93,6 +93,24 @@ const sideTitle = document.querySelector('.sidebar .side-title');
 const sideMenu = document.querySelector('.sidebar .menu');
 const tabText = document.querySelector('.tab');
 
+function bindSideMenuEvents() {
+  if (!sideMenu) return;
+  sideMenu.querySelectorAll("li").forEach(li => {
+    li.addEventListener("click", () => {
+      sideMenu.querySelectorAll("li").forEach(x => x.classList.remove("active"));
+      li.classList.add("active");
+      if (tabText) {
+        const textNode = tabText.childNodes[0];
+        if (textNode) {
+          textNode.nodeValue = li.textContent.trim() + " ";
+        }
+      }
+    });
+  });
+}
+
+bindSideMenuEvents();
+
 function renderSidebar(l2Name) {
   const items = subMenus[l2Name] || [l2Name];
   if (sideTitle) {
@@ -104,15 +122,7 @@ function renderSidebar(l2Name) {
         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8v8M11 8v8M15 8v8"/></svg><span class="menu-text" title="' + item + '">' + item + '</span>' +
       '</li>'
     )).join('');
-    sideMenu.querySelectorAll('li').forEach(li => {
-      li.addEventListener('click', () => {
-        sideMenu.querySelectorAll('li').forEach(x => x.classList.remove('active'));
-        li.classList.add('active');
-        if (tabText) {
-          tabText.childNodes[0].nodeValue = li.textContent.trim() + ' ';
-        }
-      });
-    });
+    bindSideMenuEvents();
   }
 }
 
