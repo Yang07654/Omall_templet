@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OMS · 详情页</title>
+<link rel="stylesheet" href="oms.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="oms-list.html">
+    <img class="brand-logo" src="logo_full.png" alt="OCLOUD 云中台">
+  </a>
+  <div class="systems">
+    <div class="system" data-menu="设置"><img class="sys-icon" src="icons/header_setting.png" alt=""> 设置</div>
+    <div class="system active" data-menu="OMS"><img class="sys-icon" src="icons/header_oms.png" alt=""> OMS</div>
+    <div class="system" data-menu="OIM"><img class="sys-icon" src="icons/header_oim.png" alt=""> OIM</div>
+    <div class="system" data-menu="OPS"><img class="sys-icon" src="icons/header_ops.png" alt=""> OPS</div>
+    <div class="system" data-menu="OMALL"><img class="sys-icon" src="icons/header_omall.png" alt=""> OMALL</div>
+    <div class="system" data-menu="ORM"><img class="sys-icon" src="icons/header_orm.png" alt=""> ORM</div>
+    <div class="system" data-menu="OBD"><img class="sys-icon" src="icons/header_obd.png" alt=""> OBD</div>
+  </div>
+  <div class="tools">
+    <div class="search">
+      <img class="search-icon" src="icons/tool_search.png" alt="">
+      <span>搜索</span>
+      <kbd>Ctrl K</kbd>
+    </div>
+    <div class="tool-btn"><img class="tool-icon" src="icons/tool_cloud.png" alt=""></div>
+    <div class="tool-btn"><img class="tool-icon" src="icons/tool_gear.png" alt=""></div>
+    <div class="tool-btn"><img class="tool-icon" src="icons/tool_lang.png" alt=""></div>
+    <div class="tool-btn"><img class="tool-icon" src="icons/tool_fullscreen.png" alt=""></div>
+    <div class="tool-btn"><img class="tool-avatar" src="icons/tool_avatar.png" alt=""></div>
+  </div>
+</header>
+
+<!-- 二级菜单横向浮窗与半透明遮罩 -->
+<div class="menu-panel" id="menuPanel"></div>
+<div class="menu-mask" id="menuMask"></div>
+
+<div class="shell">
+  <aside class="sidebar">
+    <div class="side-title"><span id="sideTitleText">营销中心</span><span class="collapse">«</span></div>
+    <ul class="side-menu" id="sideMenuList">
+      <li class="section" data-key="AI知识库"><img class="menu-icon" src="icons/side_ai.png" alt=""><span class="menu-text">AI知识库</span><img class="arrow" src="icons/side_arrow_down.png" alt=""></li>
+      <li class="section" data-key="基础数据"><img class="menu-icon" src="icons/side_base.png" alt=""><span class="menu-text">基础数据</span><img class="arrow" src="icons/side_arrow_down.png" alt=""></li>
+      <li class="section" data-key="活动损益"><img class="menu-icon" src="icons/side_profit.png" alt=""><span class="menu-text">活动损益</span><img class="arrow" src="icons/side_arrow_down.png" alt=""></li>
+      <li class="section" data-key="活动策略"><img class="menu-icon" src="icons/side_strategy.png" alt=""><span class="menu-text">活动策略</span><img class="arrow" src="icons/side_arrow_down.png" alt=""></li>
+      <li class="section expanded" data-key="营销方案"><img class="menu-icon" src="icons/side_plan.png" alt=""><span class="menu-text">营销方案</span><img class="arrow" src="icons/side_arrow_up.png" alt=""></li>
+      <li class="sub"><span class="sub-dot"></span><span class="menu-text" title="活动时间一览表">活动时间一览表</span></li>
+      <li class="sub"><span class="sub-dot"></span><span class="menu-text" title="项目类型列表">项目类型列表</span></li>
+      <li class="sub"><span class="sub-dot"></span><span class="menu-text" title="营销方案列表">营销方案列表</span></li>
+      <li class="sub"><span class="sub-dot"></span><span class="menu-text" title="营销选品库存销量一...">营销选品库存销量一...</span></li>
+      <li class="sub"><span class="sub-dot"></span><span class="menu-text" title="日常活动列表">日常活动列表</span></li>
+      <li class="sub active"><span class="sub-dot"></span><span class="menu-text" title="营销活动复核">营销活动复核</span></li>
+      <li class="sub"><span class="sub-dot"></span><span class="menu-text" title="集团主题活动">集团主题活动</span></li>
+      <li class="sub"><span class="sub-dot"></span><span class="menu-text" title="引流物料管理">引流物料管理</span></li>
+      <li class="section" data-key="活动项目管理"><img class="menu-icon" src="icons/side_project.png" alt=""><span class="menu-text">活动项目管理</span><img class="arrow" src="icons/side_arrow_down.png" alt=""></li>
+    </ul>
+    <div class="side-bottom">
+      <img class="side-pin" src="icons/side_pin.png" alt="">
+    </div>
+  </aside>
+
+  <main class="content">
+    <div class="tabs"><div class="tab"><span id="tabTitle">营销方案-编辑-2026年-9月-韩国</span> <span class="x" onclick="location.href='oms-list.html'">×</span></div></div>
+    <section class="main-body"><div class="detail-card"></div></section>
+  </main>
+</div>
+
+<script src="oms-menu-data.js"></script>
+<script src="oms.js"></script>
+</body>
+</html>

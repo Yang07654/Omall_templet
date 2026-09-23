@@ -1,0 +1,5629 @@
+{
+  "source": "C:\\Users\\07654\\Desktop\\云中台菜单-OMS-MENU概览.html",
+  "system": "OMS",
+  "root": {
+    "id": "1516260359813906434",
+    "name": "OMS",
+    "icon": "icon-OMS1",
+    "route": "—",
+    "sort": "2",
+    "level": 1,
+    "children": [
+      {
+        "id": "1647165780274888706",
+        "name": "OSHIPPING",
+        "icon": "icon-OMS-oshipping",
+        "route": "—",
+        "sort": "0",
+        "level": 2,
+        "children": [
+          {
+            "id": "1647165892438966275",
+            "name": "全部订单",
+            "icon": "icon-OMS-dingdanzhongxin",
+            "route": "wmsNew/oshipping/allOrders",
+            "sort": "0",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1647166031102656515",
+            "name": "等待付款订单",
+            "icon": "icon-OMS-dengdaifukuandingdan",
+            "route": "wmsNew/oshipping/waitingForPaymentOrder",
+            "sort": "1",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1647166168801656835",
+            "name": "等待审核订单",
+            "icon": "icon-OMS-dengdaishenhedingdan",
+            "route": "wmsNew/oshipping/waitingApplication",
+            "sort": "2",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1647166282500849666",
+            "name": "等待发货订单",
+            "icon": "icon-OMS-dengdaifahuodingdan",
+            "route": "wmsNew/oshipping/waitForDeliveryOrder",
+            "sort": "3",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1647166382417559554",
+            "name": "等待确认订单",
+            "icon": "icon-OMS-dengdaiquerendingdan",
+            "route": "wmsNew/oshipping/createWaybill",
+            "sort": "4",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1647166574453768194",
+            "name": "等待拣货订单",
+            "icon": "icon-OMS-daijianhuodingdan",
+            "route": "wmsNew/oshipping/InDistribution",
+            "sort": "5",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1647167501222985731",
+            "name": "等待处理订单",
+            "icon": "icon-OMS-daichulidingdan",
+            "route": "wmsNew/oshipping/pendingOrder",
+            "sort": "5",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1647166673904910338",
+            "name": "已完成订单",
+            "icon": "icon-OMS-yiwanchengdingdan",
+            "route": "wmsNew/oshipping/completeOrder",
+            "sort": "6",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1867147338805133314",
+            "name": "拣货拦截",
+            "icon": "—",
+            "route": "wmsNew/oshipping/pickInterception",
+            "sort": "7",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1647166885025202179",
+            "name": "已作废订单",
+            "icon": "icon-OMS-yizuofeidingdan",
+            "route": "wmsNew/oshipping/cancellation",
+            "sort": "8",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1647167730601082882",
+            "name": "异常订单",
+            "icon": "icon-OMS-yichangdingdan",
+            "route": "wmsNew/oshipping/errorOrder",
+            "sort": "9",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1744648718217568259",
+            "name": "富勒推送任务",
+            "icon": "icon-OMS-xiatuichanghengrenwu",
+            "route": "wmsNew/oshipping/fullerPushTask",
+            "sort": "9",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1647167874776088578",
+            "name": "标签管理",
+            "icon": "icon-OMS-biaoqianguanli",
+            "route": "wmsNew/oshipping/labelManagement",
+            "sort": "10",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1647168012575752194",
+            "name": "标签规则",
+            "icon": "icon-OMS-biaoqianguize",
+            "route": "wmsNew/oshipping/setLabel",
+            "sort": "11",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1647168136471298050",
+            "name": "审核规则",
+            "icon": "icon-OMS-shenheguize",
+            "route": "wmsNew/oshipping/reviewRules",
+            "sort": "12",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1647168246638886914",
+            "name": "分仓规则",
+            "icon": "icon-OMS-fencangguize",
+            "route": "wmsNew/oshipping/warehouseRule",
+            "sort": "13",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "2058847644170997763",
+            "name": "店铺分账配置表",
+            "icon": "—",
+            "route": "wmsNew/oshipping/shopSplittingConfig",
+            "sort": "14",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "2058849872910897154",
+            "name": "欠货明细",
+            "icon": "—",
+            "route": "wmsNew/oshipping/outstandingList",
+            "sort": "14",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1647168329614802946",
+            "name": "合单规则",
+            "icon": "icon-OMS-hedanguize",
+            "route": "wmsNew/oshipping/combinationRules",
+            "sort": "14",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1647168463090139138",
+            "name": "同步设置",
+            "icon": "icon-OMS-tongbushezhi",
+            "route": "wmsNew/oshipping/synchronization",
+            "sort": "15",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1648889493403910146",
+            "name": "白名单",
+            "icon": "icon-OMS-baimingdan",
+            "route": "wmsNew/oshipping/whiteList",
+            "sort": "16",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1651230237640802306",
+            "name": "SKU详情导出",
+            "icon": "icon-OMS-SKUxiangqingdaochu",
+            "route": "wmsNew/oshipping/skuDetailExport",
+            "sort": "17",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1682338694660407298",
+            "name": "镭雕模板",
+            "icon": "icon-OMS-leidiaomoban",
+            "route": "wmsNew/oshipping/laserEngraving",
+            "sort": "20",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "2004082175666524163",
+            "name": "镭雕素材管理",
+            "icon": "—",
+            "route": "wmsNew/oshipping/c2mMaterialLibrary",
+            "sort": "21",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "2004082375617384451",
+            "name": "镭雕物料管理",
+            "icon": "—",
+            "route": "wmsNew/oshipping/c2mMaterialsManagement",
+            "sort": "21",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1710913403049140227",
+            "name": "历史订单",
+            "icon": "icon-OMS-lishidingdan",
+            "route": "wmsNew/oshipping/oldOrder",
+            "sort": "23",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1734447219038412803",
+            "name": "预计到货时间",
+            "icon": "icon-OMS-yujidaohuoshijian",
+            "route": "wmsNew/oshipping/estimatedArrival",
+            "sort": "99",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1816409418164269059",
+            "name": "预计到货时间比对",
+            "icon": "icon-OMS-yujidaohuoshijian",
+            "route": "wmsNew/oshipping/estimatedArrivalComparison",
+            "sort": "100",
+            "level": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "1516260427556110338",
+        "name": "订单中心",
+        "icon": "icon-OMS-dingdanzhongxin",
+        "route": "—",
+        "sort": "1",
+        "level": 2,
+        "children": [
+          {
+            "id": "1910259007894269955",
+            "name": "FRS预测补货系统",
+            "icon": "—",
+            "route": "—",
+            "sort": "0",
+            "level": 3,
+            "children": [
+              {
+                "id": "1980445705085095938",
+                "name": "公共组件资源",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1915340041082056706",
+                "name": "预测补货规则配置",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1937329775018672131",
+                    "name": "预测补货规则配置",
+                    "icon": "—",
+                    "route": "oms/orderCenter/replenishmentSystem/ruleConfiguration",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1937332421729353731",
+                    "name": "店铺预测补货配置",
+                    "icon": "—",
+                    "route": "oms/orderCenter/replenishmentSystem/storeReplenConfig",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1924642799360897026",
+                "name": "预测补货资源管理",
+                "icon": "icon-shouye-jichushuju",
+                "route": "—",
+                "sort": "1",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "2090373470370115586",
+                    "name": "大单品物料配置",
+                    "icon": "—",
+                    "route": "oms/orderCenter/resourceManagement/bigSkuMaterialConfig",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1963537701468823555",
+                    "name": "店铺活动配置",
+                    "icon": "—",
+                    "route": "oms/orderCenter/resourceManagement/shopActivityConfiguration",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1924643210931171330",
+                    "name": "店铺淡旺季系数",
+                    "icon": "—",
+                    "route": "oms/orderCenter/restrictedManage/seasonalDemandCoefficient",
+                    "sort": "10",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1930864885943201794",
+                    "name": "店铺安全库存周数配置",
+                    "icon": "—",
+                    "route": "oms/orderCenter/resourceManagement/shopSafeStockWeekSet",
+                    "sort": "11",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1929808482705043459",
+                    "name": "SPU生命周期影响系数",
+                    "icon": "—",
+                    "route": "oms/orderCenter/resourceManagement/spuLifeCircleConfiguration",
+                    "sort": "20",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1910263137446604802",
+                "name": "补货基础物料维护",
+                "icon": "—",
+                "route": "oms/orderCenter/replenishmentSystem/replenishmentMaterials",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1910263008689860611",
+                "name": "前线需求汇总",
+                "icon": "—",
+                "route": "oms/orderCenter/replenishmentSystem/featureRequestsSummary",
+                "sort": "10",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1915338971693920258",
+                "name": "预测&补货",
+                "icon": "—",
+                "route": "oms/orderCenter/replenishmentSystem/replenishmentList",
+                "sort": "20",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1968630271726456834",
+                "name": "月销量预测准确率报表",
+                "icon": "—",
+                "route": "—",
+                "sort": "21",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1968630555068469250",
+                    "name": "终稿准确率报表",
+                    "icon": "—",
+                    "route": "oms/orderCenter/monthlySalesReport/predictionFinalDraftAccuracy",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1968630753970753538",
+                    "name": "推荐值+活动销量准确率报表",
+                    "icon": "—",
+                    "route": "oms/orderCenter/monthlySalesReport/predictedValueAndCampaignSalesAccuracy",
+                    "sort": "10",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1968630956366893058",
+                    "name": "推荐值准确率报表",
+                    "icon": "—",
+                    "route": "oms/orderCenter/monthlySalesReport/predictedRecommendedValueAccuracy",
+                    "sort": "20",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1968635455789731843",
+                    "name": "活动销量准确率报表",
+                    "icon": "—",
+                    "route": "oms/orderCenter/monthlySalesReport/campaignSalesAccuracy",
+                    "sort": "30",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "2082762696142295042",
+                "name": "销量预测汇总",
+                "icon": "—",
+                "route": "oms/orderCenter/replenishmentSystem/storeMaterialForecast",
+                "sort": "22",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1940586545203806210",
+                "name": "业务报表",
+                "icon": "—",
+                "route": "—",
+                "sort": "22",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "2018253980793692162",
+                    "name": "各店铺月度日均销售成本表",
+                    "icon": "—",
+                    "route": "oms/orderCenter/businessReport/storeMonthDailySalesTable",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "2053772308800028674",
+                    "name": "第三方仓B端库存看板",
+                    "icon": "—",
+                    "route": "oms/orderCenter/businessReport/3plInventory",
+                    "sort": "5",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1941056294954270723",
+                    "name": "库存结余推演表",
+                    "icon": "—",
+                    "route": "oms/orderCenter/businessReport/inventoryBalanceReport",
+                    "sort": "10",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1940586643535069186",
+                    "name": "周补货与产能对比表",
+                    "icon": "—",
+                    "route": "oms/orderCenter/businessReport/weekReplVsProdCapReport",
+                    "sort": "20",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1940590414763819011",
+                    "name": "月销预测分析表",
+                    "icon": "—",
+                    "route": "oms/orderCenter/businessReport/forecastAnalysisReport",
+                    "sort": "30",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1915340469819617283",
+                "name": "补货调整单",
+                "icon": "—",
+                "route": "oms/orderCenter/replenishmentSystem/replenishmentAdjustments",
+                "sort": "30",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1915336900697600002",
+                "name": "用牌申请",
+                "icon": "—",
+                "route": "oms/orderCenter/replenishmentSystem/licenseApplication",
+                "sort": "40",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1915340165686439939",
+                "name": "预测&补货导入记录",
+                "icon": "—",
+                "route": "oms/orderCenter/replenishmentSystem/forecastImportRecord",
+                "sort": "60",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1977978371798192131",
+                "name": "补货变动记录",
+                "icon": "—",
+                "route": "oms/orderCenter/replenishmentSystem/changeRecord",
+                "sort": "70",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1543465670835642371",
+            "name": "DMS计划需求管理系统",
+            "icon": "icon-OMS-xuqiuguanlixitong",
+            "route": "—",
+            "sort": "1",
+            "level": 3,
+            "children": [
+              {
+                "id": "1543468941830725635",
+                "name": "基础设置",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1680405496837750787",
+                    "name": "加成减价价格体系",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/additionAndPricereDuction",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1686917859567841283",
+                    "name": "店铺物流时效",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/LogisticsTimeliness",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1928021298524155906",
+                    "name": "中转仓配置",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/ruleSet",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1543473636922040323",
+                    "name": "计划物料管理维护",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/materialManagement",
+                    "sort": "1",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1543473529887596547",
+                    "name": "店铺配置维护",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/shops",
+                    "sort": "2",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1543473442998394882",
+                    "name": "店铺基础数据维护",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/base",
+                    "sort": "3",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1805191958554849282",
+                    "name": "计划基础配置",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/nonAchievement",
+                    "sort": "4",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1556557828927848450",
+                    "name": "店铺权限管理",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/userStoreAuth",
+                    "sort": "20",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1932982118995685378",
+                "name": "分仓&发货规则资源管理",
+                "icon": "—",
+                "route": "—",
+                "sort": "1",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1937079990374268931",
+                    "name": "仓库地区分布配置",
+                    "icon": "—",
+                    "route": "oms/orderCenter/resourceManagement/warehouseRegionConfig",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1925739329744498690",
+                    "name": "仓库物料订单占比",
+                    "icon": "—",
+                    "route": "oms/orderCenter/resourceManagement/orderProportion",
+                    "sort": "10",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1924642942957088771",
+                    "name": "新品同类物料配置",
+                    "icon": "—",
+                    "route": "oms/orderCenter/resourceManagement/materialRelationship",
+                    "sort": "20",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1924643028780937219",
+                    "name": "仓库禁收物料配置",
+                    "icon": "—",
+                    "route": "oms/orderCenter/restrictedManage/warehouseRestricted",
+                    "sort": "30",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1926927905190539267",
+                    "name": "物料发货数量配置",
+                    "icon": "—",
+                    "route": "oms/orderCenter/resourceManagement/deliveryConfiguration",
+                    "sort": "40",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1937080110822096899",
+                    "name": "物料整箱发货配置",
+                    "icon": "—",
+                    "route": "oms/orderCenter/resourceManagement/cartonShippingConfig",
+                    "sort": "50",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1937080262622347267",
+                    "name": "物料单独发货配置",
+                    "icon": "—",
+                    "route": "oms/orderCenter/resourceManagement/individualShippingConfig",
+                    "sort": "60",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "2064153655249358851",
+                    "name": "特殊物料发货占比配置",
+                    "icon": "—",
+                    "route": "oms/orderCenter/resourceManagement/specialMaterialShipProportion",
+                    "sort": "70",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1934559841467723778",
+                "name": "分仓规则配置",
+                "icon": "—",
+                "route": "—",
+                "sort": "2",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1923576105286447106",
+                    "name": "分仓规则类型配置",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/storeSplitRuleConfigTypeList",
+                    "sort": "10",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1923573915847176194",
+                    "name": "店铺分仓规则配置",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/storeSplitRuleSet",
+                    "sort": "20",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1543473831328030723",
+                "name": "下单管理",
+                "icon": "—",
+                "route": "—",
+                "sort": "10",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1543473928853987330",
+                    "name": "需求下单",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/ordered",
+                    "sort": "11",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1543474014279376898",
+                    "name": "下单查询",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/query",
+                    "sort": "12",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1556558079747227651",
+                    "name": "预测下单查询",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/dynamicPoolOrder",
+                    "sort": "13",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1680404990933385219",
+                    "name": "锁定订单",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/lockOrder",
+                    "sort": "40",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1832348047198855170",
+                    "name": "STO单库存分配【导入版】",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/stoAllocation",
+                    "sort": "50",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1680405176929796097",
+                    "name": "交货单推送",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/deliveryOrder",
+                    "sort": "60",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1780923206565330947",
+                    "name": "锁定需求记录",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/lockingRecord",
+                    "sort": "70",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1747957273505366018",
+                    "name": "空运订单申请",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/airOrder",
+                    "sort": "70",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1844547642122215427",
+                    "name": "需求释放报表",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/demandRelease",
+                    "sort": "71",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1543474082008997890",
+                    "name": "需求汇总",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/collect",
+                    "sort": "100",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1543475451235344386",
+                    "name": "需求推送SAP日志查询",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/sapRecord",
+                    "sort": "110",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1613429729964781570",
+                    "name": "需求历史查询",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/orderManagement",
+                    "sort": "120",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1583367553976709123",
+                "name": "店铺借货",
+                "icon": "—",
+                "route": "—",
+                "sort": "20",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1583367694158737411",
+                    "name": "店铺借货",
+                    "icon": "—",
+                    "route": "wmsNew/lending",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1587395311342006273",
+                "name": "店铺调货",
+                "icon": "—",
+                "route": "—",
+                "sort": "30",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1587395573070770178",
+                    "name": "店铺调货",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/storeCargo",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1680405858596470786",
+                "name": "STO单交付回复及到期预警",
+                "icon": "—",
+                "route": "wmsNew/forecast/replyContentListIndex",
+                "sort": "30",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1680406167779590147",
+                "name": "STO单生产交付计划",
+                "icon": "—",
+                "route": "wmsNew/forecast/sTOSingleProductionDeliveryPlan",
+                "sort": "40",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "2066453693791096834",
+                    "name": "STO单生产交付计划",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/sTOSingleProductionDeliveryPlan",
+                    "sort": "40",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "2066454715154452482",
+                    "name": "交付计划报表",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/deliveryScheduleReport",
+                    "sort": "41",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1680406306401337346",
+                "name": "关键指标数据",
+                "icon": "—",
+                "route": "—",
+                "sort": "50",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1839227172309082114",
+                    "name": "DMS订单超期报表",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/dmsOrderOverdueReport",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1845783384085405698",
+                    "name": "STO单超两周末推单报表统计",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/keyIndicatorData/stoOverTwoWeekend",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1680406855683194883",
+                    "name": "交付周期报表",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/keyIndicatorData/leadTime",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1680407005432430595",
+                    "name": "交付达成率报表",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/keyIndicatorData/deliveryRate",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1680407103759499267",
+                    "name": "各店铺东莞库存分布",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/keyIndicatorData/storeInventory",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1680510484612169730",
+                    "name": "订单超期报表",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/orderOverdueReport",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1707013280770482179",
+                    "name": "加减成报表",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/AdditionSubtractionReport",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1760602935595692034",
+                    "name": "交付预警报表",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/keyIndicatorData/deliveryWarn",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "2066455794063659010",
+                    "name": "停产产品库存报表",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/keyIndicatorData/stopProductStockReport",
+                    "sort": "3",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1702614880218177538",
+                "name": "金牌库",
+                "icon": "—",
+                "route": "—",
+                "sort": "60",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1828031192832339971",
+                    "name": "金牌设置",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/GoldMedalLibrary",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1828035863647023106",
+                    "name": "用牌记录",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/goldMedalSetting",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "2076603509229547523",
+                "name": "自动转STO单配置",
+                "icon": "—",
+                "route": "—",
+                "sort": "70",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "2076603794639351811",
+                    "name": "自动转STO店铺配置",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/autoStoOrderConfig/autoStoShopConfig",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "2076603944833183746",
+                    "name": "自动转STO物料比例配置",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/autoStoOrderConfig/autoStoMaterialRatioConfig",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "2076604120922648579",
+                    "name": "自动转STO单记录",
+                    "icon": "—",
+                    "route": "wmsNew/forecast/autoStoOrderConfig/autoStoOrderConfigLog",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "1829116696152711171",
+            "name": "手工单管理",
+            "icon": "—",
+            "route": "—",
+            "sort": "2",
+            "level": 3,
+            "children": [
+              {
+                "id": "1829116869130002434",
+                "name": "发货手工单",
+                "icon": "—",
+                "route": "wmsNew/handmadeOrder/DeliveryOrder",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1829117000004870146",
+                "name": "售后手工单",
+                "icon": "—",
+                "route": "wmsNew/manualAfterSale",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1829117150274199555",
+                "name": "手工单规则",
+                "icon": "—",
+                "route": "wmsNew/handmadeOrder/OrderRules",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1543442510832672771",
+            "name": "报告管理",
+            "icon": "icon-OMS-baogaoguanli",
+            "route": "—",
+            "sort": "3",
+            "level": 3,
+            "children": [
+              {
+                "id": "1851595670242893826",
+                "name": "SAP报告对账",
+                "icon": "—",
+                "route": "wmsNew/sapReportReconciliation",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1543442973661536258",
+                "name": "SAP订单报告",
+                "icon": "—",
+                "route": "wmsNew/saporder",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1907362222007857155",
+                "name": "傲点关联交易报表",
+                "icon": "—",
+                "route": "wmsNew/transactionReport",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1907362381026504706",
+                "name": "报表公式配置",
+                "icon": "—",
+                "route": "wmsNew/reportFormulaConfig",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1907362484269297667",
+                "name": "利润中心维护",
+                "icon": "—",
+                "route": "wmsNew/profitCenter",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1542845671355916291",
+            "name": "原始订单管理",
+            "icon": "icon-OMS-yuanshidingdanguanli",
+            "route": "—",
+            "sort": "40",
+            "level": 3,
+            "children": [
+              {
+                "id": "1986366335970152450",
+                "name": "微信小店",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1986367583033200642",
+                    "name": "微信小店订单列表",
+                    "icon": "—",
+                    "route": "wmsNew/wechatShop/orderList",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1853395506252390402",
+                "name": "微盟",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1853395876148060163",
+                    "name": "微盟原始订单",
+                    "icon": "—",
+                    "route": "oms/orderCenter/originalOrder/weimob/weimobOriginalOrder",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1853395968418553859",
+                    "name": "微盟售后订单",
+                    "icon": "—",
+                    "route": "oms/orderCenter/originalOrder/weimob/weimobAfterSalesOrder",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1542845851274780674",
+                "name": "OMALL商城订单",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1543542785144725507",
+                    "name": "OMALL整单退",
+                    "icon": "—",
+                    "route": "wmsNew/orderCnter/omallReturnTheWholeOrder",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1543543117249716227",
+                    "name": "OMALL售后订单",
+                    "icon": "—",
+                    "route": "wmsNew/orderCnter/omallAfterSalesOrder",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1543543222434471938",
+                    "name": "OMALL赔付单",
+                    "icon": "—",
+                    "route": "wmsNew/orderCnter/omallPayaSingle",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1543543338344062978",
+                    "name": "OMALL商城订单列表",
+                    "icon": "—",
+                    "route": "wmsNew/orderCnter/mallorder",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1543440211708157955",
+                "name": "亚马逊订单",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "2008130674107211778",
+                    "name": "亚马逊引流报告",
+                    "icon": "—",
+                    "route": "wmsNew/amazon/generationOrderList",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1543440306520399875",
+                    "name": "亚马逊订单列表",
+                    "icon": "—",
+                    "route": "wmsNew/amazon/orderList",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1543440385402675202",
+                    "name": "亚马逊退货单列表",
+                    "icon": "—",
+                    "route": "wmsNew/amazon/returnList",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1543440463903268867",
+                    "name": "亚马逊发货列表",
+                    "icon": "—",
+                    "route": "wmsNew/amazon/shipList",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1543440526645862402",
+                    "name": "亚马逊交易明细",
+                    "icon": "—",
+                    "route": "wmsNew/orderCnter/amazon/amazonOrder",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1543442009000976386",
+                    "name": "亚马逊换货订单发货明细",
+                    "icon": "—",
+                    "route": "wmsNew/amazon/exchangeOrder",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1955958936011264003",
+                    "name": "亚马逊配置",
+                    "icon": "—",
+                    "route": "wmsNew/amazon/config",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1570608596714586114",
+                "name": "EBAY订单",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1570608766516789250",
+                    "name": "EBAY订单",
+                    "icon": "—",
+                    "route": "wmsNew/ebayOrder/orderList",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1570608869499535363",
+                    "name": "EBAY交易明细",
+                    "icon": "—",
+                    "route": "wmsNew/ebayOrder/transactionDetails",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1694617389437472770",
+                    "name": "EBAY提现明细",
+                    "icon": "—",
+                    "route": "wmsNew/ebayOrder/withdrawCashDetails",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1833097694313914370",
+                    "name": "EBAY发票",
+                    "icon": "—",
+                    "route": "wmsNew/ebayOrder/invoice",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1641329352572407811",
+                "name": "B2B商城订单",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1983838384976269314",
+                    "name": "B2B商城售后单",
+                    "icon": "—",
+                    "route": "wmsNew/orderCnter/b2bAfterSalesOrder",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1641329525256097794",
+                    "name": "B2B商城订单列表",
+                    "icon": "—",
+                    "route": "wmsNew/b2bOrder/b2bOrderList",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1952665697569198082",
+                "name": "TEMU",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1952666277872128003",
+                    "name": "TEMU订单",
+                    "icon": "—",
+                    "route": "wmsNew/orderCnter/temu",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1952666564213067779",
+                    "name": "TEMU售后单",
+                    "icon": "—",
+                    "route": "wmsNew/orderCnter/temu/temuAfterSalesOrder",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1735889340599345154",
+                "name": "OTTO",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1691363911473799171",
+                    "name": "OTTO订单",
+                    "icon": "—",
+                    "route": "wmsNew/otto",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1735889637686091779",
+                    "name": "OTTO售后单",
+                    "icon": "—",
+                    "route": "oms/originalOrder/otto/ottoAfterSales",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1735895652787789827",
+                "name": "TIKTOK",
+                "icon": "—",
+                "route": "oms/originalOrder/tiktokAfterSales",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1694617539471921155",
+                    "name": "TIKTOK订单",
+                    "icon": "—",
+                    "route": "wmsNew/tiktok",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1735895901119946754",
+                    "name": "TIKTOK售后订单",
+                    "icon": "—",
+                    "route": "oms/originalOrder/tiktokAfterSales",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1735896680983666691",
+                    "name": "TIKTOK取消订单",
+                    "icon": "—",
+                    "route": "oms/originalOrder/tiktokCancelOrder",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1735897782219153410",
+                "name": "乐天订单",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1735897854155661314",
+                    "name": "乐天订单列表",
+                    "icon": "—",
+                    "route": "oms/originalOrder/rakutenOrder",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1735899116221734915",
+                    "name": "乐天售后",
+                    "icon": "—",
+                    "route": "oms/originalOrder/rakutenAfterSales",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1735900094148878339",
+                "name": "淘宝订单",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1735900165707898882",
+                    "name": "淘宝订单列表",
+                    "icon": "—",
+                    "route": "oms/originalOrder/taobaoOrder",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1735900674690883586",
+                    "name": "淘宝售后",
+                    "icon": "—",
+                    "route": "oms/originalOrder/taobaoafterSales",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1735900898280841219",
+                "name": "天猫订单",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1735900972427747330",
+                    "name": "天猫订单列表",
+                    "icon": "—",
+                    "route": "oms/originalOrder/tianmaoOrder",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1735901582803836931",
+                    "name": "天猫售后",
+                    "icon": "—",
+                    "route": "oms/originalOrder/tianmaoafterSales",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1735901793085267970",
+                "name": "京东",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1759121467287597058",
+                    "name": "京东赔付单列表",
+                    "icon": "—",
+                    "route": "oms/originalOrder/jd/jdCompensation",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1735901854007533570",
+                    "name": "京东订单列表",
+                    "icon": "—",
+                    "route": "oms/originalOrder/jd/jdOrderList",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1735902286998118403",
+                    "name": "京东售后",
+                    "icon": "—",
+                    "route": "oms/originalOrder/jd/jdafterSales",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1735902825899073539",
+                    "name": "京东退款信息",
+                    "icon": "—",
+                    "route": "oms/originalOrder/jd/jdRefund",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1871151566682832898",
+                    "name": "京东价保记录",
+                    "icon": "—",
+                    "route": "oms/originalOrder/jd/jdPriceInsuranceRecord",
+                    "sort": "5",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1735903174433153026",
+                "name": "抖店",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1735903249167261698",
+                    "name": "抖店列表",
+                    "icon": "—",
+                    "route": "oms/originalOrder/dy/dyOrderList",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1735903589547614211",
+                    "name": "抖店售后",
+                    "icon": "—",
+                    "route": "oms/originalOrder/dy/ddAfterSales",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1752312753263382530",
+                "name": "SHEIN",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1752312867260370947",
+                    "name": "SHEIN订单",
+                    "icon": "—",
+                    "route": "wmsNew/shein/orderList",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1647168791743217667",
+        "name": "物流中心",
+        "icon": "icon-OMS-wuliuzhongxin",
+        "route": "—",
+        "sort": "2",
+        "level": 2,
+        "children": [
+          {
+            "id": "1946028021013626883",
+            "name": "基础信息",
+            "icon": "icon-shouye-quanxianguanli",
+            "route": "—",
+            "sort": "0",
+            "level": 3,
+            "children": [
+              {
+                "id": "1715206381964025858",
+                "name": "货品信息",
+                "icon": "—",
+                "route": "oms/logisticsSystem/productInfo",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1955173006904119298",
+                "name": "销售链接信息",
+                "icon": "—",
+                "route": "oms/logisticsSystem/salesLink",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1955915730015997955",
+                "name": "全球分区管理",
+                "icon": "—",
+                "route": "oms/logisticsSystem/globalPartition",
+                "sort": "4",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1955924666853085187",
+                "name": "物流商价目表管理",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsPrice",
+                "sort": "6",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1997974996358238211",
+                "name": "物流商账单类型配置",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsMerchantBillTypeConfig",
+                "sort": "8",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1715212349053526019",
+                "name": "寄件人信息",
+                "icon": "—",
+                "route": "oms/logisticsSystem/senderInformation",
+                "sort": "10",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1938208714293411842",
+                "name": "收件人信息",
+                "icon": "—",
+                "route": "oms/logisticsSystem/recipientInformation",
+                "sort": "12",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1715208486833545219",
+                "name": "制造商信息",
+                "icon": "—",
+                "route": "oms/logisticsSystem/manufacturer",
+                "sort": "14",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1715237349185740802",
+                "name": "进口商信息维护",
+                "icon": "—",
+                "route": "oms/logisticsSystem/invoiceInfo",
+                "sort": "16",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1970092723802607619",
+                "name": "增值税率信息",
+                "icon": "—",
+                "route": "oms/logisticsSystem/mutationRate",
+                "sort": "18",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1698967660033925122",
+                "name": "发货方式管理",
+                "icon": "—",
+                "route": "oms/logisticsSystem/freightEstimate/basicData",
+                "sort": "20",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1972853253669376003",
+                "name": "燃油附加费率信息",
+                "icon": "—",
+                "route": "oms/logisticsSystem/fuelSurcharge",
+                "sort": "22",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1981317997113610242",
+                "name": "对账差异范围配置",
+                "icon": "—",
+                "route": "oms/logisticsSystem/rangeConfiguration",
+                "sort": "24",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2013815304449810434",
+                "name": "税率查询列表",
+                "icon": "—",
+                "route": "oms/logisticsSystem/taxRateLookup",
+                "sort": "26",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2016807526514417666",
+                "name": "历史运单信息",
+                "icon": "—",
+                "route": "oms/logisticsSystem/historicalWaybill",
+                "sort": "28",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1698972932357939202",
+            "name": "发货管理",
+            "icon": "icon-OMS-fahuoguanli1",
+            "route": "—",
+            "sort": "1",
+            "level": 3,
+            "children": [
+              {
+                "id": "1698973278580957186",
+                "name": "装车单管理",
+                "icon": "—",
+                "route": "—",
+                "sort": "1",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1698973433526935555",
+                    "name": "装车单列表",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/shippingManagement/loadingList",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1995815546704859138",
+                    "name": "验证地址通过记录",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/shippingManagement/addressVerificationRecords",
+                    "sort": "1",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "2026960882054586370",
+                    "name": "VC订单明细",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/shippingManagement/vcOrder",
+                    "sort": "1",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1995798577226158082",
+                    "name": "预约取件记录",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/shippingManagement/pickupRecords",
+                    "sort": "2",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1985274317445500931",
+                    "name": "发票模板配置",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/shippingManagement/InvoiceTplManagement",
+                    "sort": "3",
+                    "level": 5,
+                    "children": [
+                      {
+                        "id": "1985275495419973634",
+                        "name": "模板配置字段库",
+                        "icon": "—",
+                        "route": "oms/logisticsSystem/shippingManagement/InvoiceTplManagement/fieldLibrary",
+                        "sort": "0",
+                        "level": 6,
+                        "children": []
+                      },
+                      {
+                        "id": "1996851267553169410",
+                        "name": "发票模板",
+                        "icon": "—",
+                        "route": "oms/logisticsSystem/shippingManagement/InvoiceTplManagement/InvoiceTemplate",
+                        "sort": "0",
+                        "level": 6,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "1866072152538333186",
+                    "name": "套装物料配置",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/shippingManagement/packageMaterialConfiguration",
+                    "sort": "4",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1698976220121849858",
+                    "name": "报关信息日志列表",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/shippingManagement/customsLog",
+                    "sort": "5",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1962486118865887235",
+                    "name": "越南原材料配置",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/shippingManagement/materialConfig",
+                    "sort": "6",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "2037099006225526787",
+                    "name": "进口税金单维护",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/shippingManagement/importTaxInvoice",
+                    "sort": "7",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1949745475739287554",
+                "name": "装运货物交接与签字",
+                "icon": "—",
+                "route": "oms/logisticsSystem/cargoHandoverSignoff",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1721375692348907522",
+                "name": "IPO发货数据",
+                "icon": "—",
+                "route": "oms/logisticsSystem/shippingManagement/shippingData",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1925734520199016450",
+                "name": "发货计划",
+                "icon": "—",
+                "route": "—",
+                "sort": "4",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1925734873980170242",
+                    "name": "发货计划看板",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/shippingManagement/shipmentPlan/shipmentPlanSpectaculars",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1925734956192722947",
+                    "name": "发货计划差异",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/shippingManagement/shipmentPlan/shipmentPlanDiff",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1698976391039737858",
+                "name": "关务信息管理",
+                "icon": "—",
+                "route": "—",
+                "sort": "5",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1698976522988347394",
+                    "name": "关务信息回传列表",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/shippingManagement/customsInformation",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1698977260808364034",
+                "name": "关务退件",
+                "icon": "—",
+                "route": "—",
+                "sort": "6",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1698977405608321026",
+                    "name": "出口报关退件",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/shippingManagement/exportCustomsDeclarationReturns",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1698977516988063747",
+                    "name": "进口报关资料",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/shippingManagement/importCustomsDeclarationInformation",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1698977604883898371",
+                "name": "电池报告管理",
+                "icon": "—",
+                "route": "—",
+                "sort": "7",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1698977791597535234",
+                    "name": "电池报告",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/shippingManagement/batteryReport",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1924638805875978242",
+                "name": "发货规则配置",
+                "icon": "—",
+                "route": "—",
+                "sort": "8",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1924638972347904003",
+                    "name": "发货规则类型配置",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/rulesManage/logisticsShipmentRules",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1924639069760614402",
+                    "name": "店铺发货规则配置",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/rulesManage/storeShippingRules",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1647170301449388035",
+                "name": "日报关清单",
+                "icon": "—",
+                "route": "oms/logisticsSystem/dailyCustomsList",
+                "sort": "9",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1670707097487458306",
+                "name": "PDA扫描出货",
+                "icon": "—",
+                "route": "wmsNew/logisticsCenter/pdascancodeout",
+                "sort": "10",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1953391980657758210",
+            "name": "头程对账管理",
+            "icon": "—",
+            "route": "—",
+            "sort": "2",
+            "level": 3,
+            "children": [
+              {
+                "id": "2001137629764751362",
+                "name": "对账汇总报表",
+                "icon": "—",
+                "route": "oms/logisticsSystem/reconciliationSummaryReport",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1953392258022887426",
+                "name": "货代物流账单",
+                "icon": "—",
+                "route": "oms/logisticsSystem/freightLogisticsBill",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1970099023974371330",
+                "name": "货代差异账单",
+                "icon": "—",
+                "route": "oms/logisticsSystem/freightLogisticsBillDifference",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1953392467759058947",
+                "name": "三大快递物流账单",
+                "icon": "—",
+                "route": "oms/logisticsSystem/threeLogisticsBill",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1970104340846088195",
+                "name": "三大快递差异账单",
+                "icon": "—",
+                "route": "oms/logisticsSystem/threeLogisticsDifference",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1970109088525586434",
+                "name": "对账任务",
+                "icon": "—",
+                "route": "oms/logisticsSystem/reconciliationTasks",
+                "sort": "4",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1970112800727896067",
+                "name": "头程账单凭证",
+                "icon": "—",
+                "route": "oms/logisticsSystem/billingVoucher",
+                "sort": "5",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1999052377055531010",
+            "name": "尾程对账管理",
+            "icon": "—",
+            "route": "—",
+            "sort": "3",
+            "level": 3,
+            "children": [
+              {
+                "id": "1999052674867892226",
+                "name": "账单导入模版配置",
+                "icon": "—",
+                "route": "oms/logisticsSystem/billImportTemplateConfig",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1999058670994558979",
+                "name": "账单收集",
+                "icon": "—",
+                "route": "oms/logisticsSystem/lastMileBill",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1999069934437240835",
+                "name": "对账任务",
+                "icon": "—",
+                "route": "oms/logisticsSystem/lastMileReconciliationTasks",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1999075404556242946",
+                "name": "账单凭证",
+                "icon": "—",
+                "route": "oms/logisticsSystem/lastMileBillingVoucher",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2003391429422583811",
+                "name": "尾程对账汇总报表",
+                "icon": "—",
+                "route": "oms/logisticsSystem/lastMileBillSummary",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "2005480966465380354",
+            "name": "报关对账管理",
+            "icon": "—",
+            "route": "—",
+            "sort": "4",
+            "level": 3,
+            "children": [
+              {
+                "id": "2005481147055333378",
+                "name": "报关对账单",
+                "icon": "—",
+                "route": "oms/logisticsSystem/customsReconciliationStatement",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2005484874134839299",
+                "name": "报关凭证",
+                "icon": "—",
+                "route": "oms/logisticsSystem/customsBillingVoucher",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1728002990594514947",
+            "name": "货代管理",
+            "icon": "icon-OMS-huodaiguanli",
+            "route": "—",
+            "sort": "5",
+            "level": 3,
+            "children": [
+              {
+                "id": "1728003095909294083",
+                "name": "货代明细",
+                "icon": "—",
+                "route": "oms/logisticsSystem/freightForwardingManagement/FreightForwardingDetails",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1728003800644640771",
+                "name": "货代服务评估",
+                "icon": "—",
+                "route": "oms/logisticsSystem/freightForwardingManagement/serviceEvaluation",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1728004391567548418",
+                "name": "货代服务趋势",
+                "icon": "—",
+                "route": "oms/logisticsSystem/freightForwardingManagement/serviceTrends",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1698967265354113026",
+            "name": "头程运费预估",
+            "icon": "icon-OMS-touchengyunfeiyugu",
+            "route": "—",
+            "sort": "6",
+            "level": 3,
+            "children": [
+              {
+                "id": "1698969348098678787",
+                "name": "运费明细",
+                "icon": "—",
+                "route": "oms/logisticsSystem/freightEstimate/settings",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1698970024853823490",
+                "name": "运费对账表",
+                "icon": "—",
+                "route": "oms/logisticsSystem/freightEstimate/reconciliation",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1698970793367756802",
+                "name": "运费计算器",
+                "icon": "—",
+                "route": "oms/logisticsSystem/freightEstimate/calculator",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1729795522101960707",
+            "name": "尾程运费预估",
+            "icon": "icon-OMS-weichengyunfeiyugu",
+            "route": "—",
+            "sort": "7",
+            "level": 3,
+            "children": [
+              {
+                "id": "1729795675386994691",
+                "name": "运费明细",
+                "icon": "—",
+                "route": "oms/logisticsSystem/castMileFreight/shippingDetails",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1737031559356063746",
+                "name": "尾程预估明细",
+                "icon": "—",
+                "route": "oms/logisticsSystem/castMileFreight/estimateDetailsList",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1729796330646331394",
+                "name": "区域明细",
+                "icon": "—",
+                "route": "oms/logisticsSystem/castMileFreight/areaDetails",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1729796830846443522",
+                "name": "运费导入明细",
+                "icon": "—",
+                "route": "oms/logisticsSystem/castMileFreight/freightImportDetails",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1729798160969293827",
+                "name": "区域导入明细",
+                "icon": "—",
+                "route": "oms/logisticsSystem/castMileFreight/regionalImportDetails",
+                "sort": "4",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2100522641701396483",
+                "name": "亚马逊店铺尾程单价",
+                "icon": "—",
+                "route": "oms/logisticsSystem/castMileFreight/amazonShopPrice",
+                "sort": "5",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1850865341471301635",
+            "name": "物流账单",
+            "icon": "icon-OMS-huodaiguanli",
+            "route": "—",
+            "sort": "8",
+            "level": 3,
+            "children": [
+              {
+                "id": "1850865662176174083",
+                "name": "Fedex",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsBill/fedex",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1850865764554940419",
+                "name": "Fourpx",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsBill/fourpx",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1850866010584424450",
+                "name": "Aupost",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsBill/aupost",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1850866107351212035",
+                "name": "Chrono",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsBill/chrono",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1850866199542013954",
+                "name": "Colissimo",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsBill/colissimo",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1850866420728635395",
+                "name": "DeDhl",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsBill/deDhl",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1850866508574138370",
+                "name": "DmcUsps",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsBill/dmcUsps",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1850866595190710274",
+                "name": "Hotsin",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsBill/hotsin",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1850866704519438339",
+                "name": "Ups",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsBill/ups",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1850866777567436803",
+                "name": "Usps",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsBill/usps",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1864623190576971779",
+                "name": "SPE",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsBill/spe",
+                "sort": "9",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1864623299465297922",
+                "name": "SMS",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsBill/sms",
+                "sort": "10",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1699974645005082626",
+            "name": "物流系统",
+            "icon": "icon-OMS-wuliuxitong",
+            "route": "—",
+            "sort": "9",
+            "level": 3,
+            "children": [
+              {
+                "id": "1981324783208075267",
+                "name": "头程标准物流",
+                "icon": "—",
+                "route": "oms/logisticsSystem/standardLogistics",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1647168877537705987",
+                "name": "运单信息",
+                "icon": "—",
+                "route": "oms/logisticsSystem/waybillInfo",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1647169767648706562",
+                "name": "物流轨迹",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsTrajectory",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1647170050483208195",
+                "name": "运费信息",
+                "icon": "—",
+                "route": "oms/logisticsSystem/freightInfo",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1647170152316715011",
+                "name": "物流渠道",
+                "icon": "—",
+                "route": "oms/logisticsSystem/logisticsChannels",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1647170229500297218",
+                "name": "配送方式",
+                "icon": "—",
+                "route": "oms/logisticsSystem/shippingMethod",
+                "sort": "4",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1698978779830083587",
+                "name": "第三方仓储sku标签",
+                "icon": "—",
+                "route": "oms/logisticsSystem/thirdPartySku",
+                "sort": "5",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1826551357370986499",
+                "name": "标准包装维护",
+                "icon": "—",
+                "route": "oms/logisticsSystem/standardPackagingMaintenance",
+                "sort": "6",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1957377328690290690",
+                "name": "维护小B标签",
+                "icon": "—",
+                "route": "oms/logisticsSystem/smallBLabel",
+                "sort": "9",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1972830725903208450",
+                "name": "头程原始物流轨迹",
+                "icon": "—",
+                "route": "—",
+                "sort": "10",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1972831984492204035",
+                    "name": "寰宇通达物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/utlink",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972832969306394626",
+                    "name": "帕斯物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/perth",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972834012106838018",
+                    "name": "广东联仓物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/gdlc",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972834813185347587",
+                    "name": "广东鸿捷国际物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/gdhj",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972835681242697730",
+                    "name": "美易达物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/mydex",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972836460896702466",
+                    "name": "赫泊斯物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/hubs",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972837330858266626",
+                    "name": "中外运敦豪国际物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/dhl",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972838120415023107",
+                    "name": "物友物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/wuyou",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972839065584652291",
+                    "name": "众包物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/zbao",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972841827802271747",
+                    "name": "鑫远洋国际物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/xyy",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972842512665006083",
+                    "name": "优比速物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/ups",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972843242201272322",
+                    "name": "新丰达物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/xfd",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972844000883757058",
+                    "name": "邦递国际物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/bodiex",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972844885919649794",
+                    "name": "昊宏国际物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/hykex",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972845455812317186",
+                    "name": "锦博天物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/jbt",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972846123381936131",
+                    "name": "柏域斯浩航物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/pgs",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972846792365035522",
+                    "name": "瑞秋物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/rachel",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972847512900325379",
+                    "name": "澳洲豹物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/azb",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972848133028171779",
+                    "name": "一八物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/yiBa",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1972848784785264642",
+                    "name": "联邦物流轨迹",
+                    "icon": "—",
+                    "route": "oms/logisticsSystem/originaltrajectory/fedex",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "1657252225123532802",
+            "name": "物流看板",
+            "icon": "icon-OMS-wuliukanban",
+            "route": "—",
+            "sort": "10",
+            "level": 3,
+            "children": [
+              {
+                "id": "1657252580737597443",
+                "name": "订单分布地图",
+                "icon": "—",
+                "route": "oms/logisticsSystem/orderMapDistribution",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1694945619973427203",
+                "name": "自提订单待取货看板",
+                "icon": "—",
+                "route": "oms/logisticsSystem/pickUpKanBan",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1714899836294324226",
+                "name": "中心仓可售天数看板",
+                "icon": "—",
+                "route": "oms/logisticsSystem/centerWarehouseBoard",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1774735327778537475",
+                "name": "枪店与枪展分布地图",
+                "icon": "—",
+                "route": "oms/logisticsSystem/gunDistributionMap",
+                "sort": "4",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1698978527739830274",
+                "name": "全球物流海空运发货占比",
+                "icon": "—",
+                "route": "oms/logisticsSystem/globalLogisticsProportion",
+                "sort": "15",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1774738125639352322",
+                "name": "枪店与枪展地图数据",
+                "icon": "—",
+                "route": "oms/logisticsSystem/gunMapData",
+                "sort": "22",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "2075460306988232707",
+            "name": "B端运费预估",
+            "icon": "—",
+            "route": "—",
+            "sort": "15",
+            "level": 3,
+            "children": [
+              {
+                "id": "2075460559686660099",
+                "name": "国家配置",
+                "icon": "—",
+                "route": "oms/logisticsSystem/b2bShippingCostEstimate/nationalConfiguration",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2075465411791745027",
+                "name": "运费报价",
+                "icon": "—",
+                "route": "oms/logisticsSystem/b2bShippingCostEstimate/freightRateQuote",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2075471070931251202",
+                "name": "B端运费计算器",
+                "icon": "—",
+                "route": "oms/logisticsSystem/b2bShippingCostEstimate/freightCalculator",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2084178174131769346",
+                "name": "渠道配置",
+                "icon": "—",
+                "route": "oms/logisticsSystem/b2bShippingCostEstimate/channelConfiguration",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1920651287478087682",
+            "name": "AEO体系文件管理",
+            "icon": "icon-OMS-dingdanzhongxin",
+            "route": "—",
+            "sort": "15",
+            "level": 3,
+            "children": [
+              {
+                "id": "1920647468920811522",
+                "name": "AEO体系文件",
+                "icon": "—",
+                "route": "oms/logisticsSystem/aeoFilesManagement/aeoFiles",
+                "sort": "15",
+                "level": 4,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1543476202640711682",
+        "name": "库存中心",
+        "icon": "icon-OMS-kucunzhongxin",
+        "route": "—",
+        "sort": "3",
+        "level": 2,
+        "children": [
+          {
+            "id": "1784901727692226562",
+            "name": "基础信息",
+            "icon": "icon-OMS-dianpukucunbilishezhi",
+            "route": "—",
+            "sort": "0",
+            "level": 3,
+            "children": [
+              {
+                "id": "1784902102746890243",
+                "name": "工厂",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/factory",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1784912752722280451",
+                "name": "店铺",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/store",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1784906162963185667",
+                "name": "仓库渠道",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/warehouseChannel",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1784910132020477955",
+                "name": "实体仓库",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/physicalWarehouse",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1574331691308744706",
+                "name": "库存地点",
+                "icon": "icon-OMS-cangkuguanli",
+                "route": "wmsNew/InventoryCenter/storehouse",
+                "sort": "4",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1805198475131727875",
+                "name": "库存业务类型",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/inventoryBusinessType",
+                "sort": "5",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1805200999800745987",
+                "name": "出入库业务类型",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/inoutWarehouseBusinessType",
+                "sort": "6",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1805201219796185091",
+            "name": "库存关系",
+            "icon": "—",
+            "route": "—",
+            "sort": "1",
+            "level": 3,
+            "children": [
+              {
+                "id": "1805202088541401090",
+                "name": "工厂&公司主体",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/factoryCompany",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1805202205176606723",
+                "name": "部门&店铺",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/departmentStore",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1805202307949637635",
+                "name": "仓库渠道&实体仓库",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/warChannelPhysical",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1805202454628642819",
+                "name": "实体仓库&库存地点",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/invLocWarehouse",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1805202566432010242",
+                "name": "库存业务类型&出入库业务类型",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/invInoutBusinessType",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1805202783164280835",
+            "name": "业务配置",
+            "icon": "—",
+            "route": "—",
+            "sort": "2",
+            "level": 3,
+            "children": [
+              {
+                "id": "1767486363693846531",
+                "name": "库存预警配置",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/inventoryWarning",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1960615631919439874",
+                "name": "控制订单配置",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/controlOrderConfig",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1839235667280437251",
+                "name": "在途时效配置",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/inTransitAgingConfig",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1737002086980100099",
+                "name": "部门预算配置",
+                "icon": "icon-OMS-bumenyusuanguanli",
+                "route": "wmsNew/InventoryCenter/storeInventoryBudget",
+                "sort": "26",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1805203582623789058",
+            "name": "库存查询",
+            "icon": "—",
+            "route": "—",
+            "sort": "3",
+            "level": 3,
+            "children": [
+              {
+                "id": "1574332264623964162",
+                "name": "标准即时库存",
+                "icon": "icon-OMS-jishikucun",
+                "route": "wmsNew/InventoryCenter/omsInstantStock",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1574332822709665793",
+                "name": "标准出入库流水",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/outDetails",
+                "sort": "10",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1971138865294348290",
+                "name": "库存释放",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/inventoryClean",
+                "sort": "12",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1980215721808596995",
+                "name": "标准库存释放通知配置",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/releaseNotice",
+                "sort": "13",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1805204143637114882",
+                "name": "标准库存单据",
+                "icon": "icon-OMS-cangkuguanli",
+                "route": "wmsNew/InventoryCenter/InventoryDocument",
+                "sort": "20",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1834184741376172035",
+                "name": "标准库存单据日志",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/InventoryDocumentLogs",
+                "sort": "30",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1736991134448590850",
+                "name": "中心仓库存",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/centralStoreInventory",
+                "sort": "40",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1831649376069165059",
+                "name": "物料库存查询",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/materialInventoryInquiry",
+                "sort": "50",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1805205128476471299",
+            "name": "库存业务报表",
+            "icon": "—",
+            "route": "—",
+            "sort": "4",
+            "level": 3,
+            "children": [
+              {
+                "id": "1846868201027837954",
+                "name": "借调报表",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/secondmentReport",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1574332675229548547",
+                "name": "历史库存报表",
+                "icon": "icon-OMS-lishikucun",
+                "route": "wmsNew/InventoryCenter/historicalInventoryReport",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1736989876547461122",
+                "name": "库龄业务报表",
+                "icon": "icon-OMS-kucunmingxi",
+                "route": "wmsNew/InventoryCenter/inventoryAgeReport",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1647146061413138435",
+                "name": "在途业务报表",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/transitManifestList",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1736988441491513346",
+                "name": "库存全链路报表",
+                "icon": "icon-OMS-kucunquanlianlu",
+                "route": "wmsNew/InventoryCenter/fullInventoryChain",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1543476919745060866",
+                "name": "SAP销售库存报表",
+                "icon": "—",
+                "route": "wmsNew/sapwarehouse",
+                "sort": "5",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1833099561467060226",
+                "name": "SAP其他库存报表",
+                "icon": "—",
+                "route": "wmsNew/otherSapwarehouse",
+                "sort": "6",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2076860691212726274",
+                "name": "库存监控看板",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/monitoringDashboard",
+                "sort": "7",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1543476288967876611",
+            "name": "原始库存数据",
+            "icon": "icon-OMS-yuanshikucunguanli",
+            "route": "—",
+            "sort": "5",
+            "level": 3,
+            "children": [
+              {
+                "id": "1805207825304891395",
+                "name": "富勒仓即时库存",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/fluxInventory",
+                "sort": "10",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1805207943563292675",
+                "name": "FBA仓即时库存",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/fbaStockInfo",
+                "sort": "20",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1543476392361664515",
+                "name": "4PX仓即时库存",
+                "icon": "—",
+                "route": "—",
+                "sort": "30",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1543476565099880450",
+                    "name": "4px出入库明细",
+                    "icon": "—",
+                    "route": "wmsNew/InventoryCenter/InventoryDetails",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1892041786255020034",
+                    "name": "4PX即时库存",
+                    "icon": "—",
+                    "route": "wmsNew/InventoryCenter/originalStock/instantStock",
+                    "sort": "1",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1892041909257179138",
+                    "name": "4PX历史库存",
+                    "icon": "—",
+                    "route": "wmsNew/InventoryCenter/originalStock/historyInventory",
+                    "sort": "2",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1805208546314137602",
+                "name": "万邦仓即时库存",
+                "icon": "—",
+                "route": "—",
+                "sort": "40",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1805208070088667139",
+                "name": "和兴国际仓即时库存",
+                "icon": "—",
+                "route": "—",
+                "sort": "50",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1805208879606116355",
+                "name": "大卖仓即时库存",
+                "icon": "—",
+                "route": "—",
+                "sort": "60",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1805208774463303682",
+                "name": "皇家物流仓即时库存",
+                "icon": "—",
+                "route": "—",
+                "sort": "70",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1805209221580304387",
+                "name": "SMS仓即时库存",
+                "icon": "—",
+                "route": "—",
+                "sort": "80",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1805209398739316738",
+                "name": "京东自营仓即时库存",
+                "icon": "—",
+                "route": "—",
+                "sort": "90",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1584376137460035586",
+                "name": "亚马逊库存报告",
+                "icon": "—",
+                "route": "—",
+                "sort": "100",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1584376354754342914",
+                    "name": "亚马逊库存管理报告",
+                    "icon": "—",
+                    "route": "wmsNew/InventoryCenter/amazon/report",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1584376517019381762",
+                    "name": "亚马逊补货入库报告",
+                    "icon": "—",
+                    "route": "wmsNew/InventoryCenter/amazon/mend",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1584376705716924418",
+                    "name": "亚马逊盘库报告",
+                    "icon": "—",
+                    "route": "wmsNew/InventoryCenter/amazon/store",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1584377662622216195",
+                    "name": "亚马逊移除货件报告",
+                    "icon": "—",
+                    "route": "wmsNew/InventoryCenter/amazon/remove",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "1574325921074708483",
+            "name": "OMS库存管理",
+            "icon": "—",
+            "route": "—",
+            "sort": "6",
+            "level": 3,
+            "children": [
+              {
+                "id": "1736999403015610370",
+                "name": "OMS库存转移明细",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/inventoryTransferDetails",
+                "sort": "12",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1574332555276648450",
+                "name": "OMS库存导入记录",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/importRecord",
+                "sort": "16",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1574332410489274371",
+                "name": "OMS店铺库存比例设置",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/storeInventoryRatio",
+                "sort": "38",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1647143681216921603",
+                "name": "库存对比",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/inventoryComparison",
+                "sort": "48",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1584845564265705475",
+            "name": "富勒推送报告管理",
+            "icon": "—",
+            "route": "—",
+            "sort": "7",
+            "level": 3,
+            "children": [
+              {
+                "id": "1584845744339759106",
+                "name": "富勒推送报告列表",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/fullerStatement",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "2094687392908685315",
+            "name": "店铺互调",
+            "icon": "icon-OMS-dianpuhutiao",
+            "route": "—",
+            "sort": "10",
+            "level": 3,
+            "children": [
+              {
+                "id": "2094687604641345538",
+                "name": "FBT库存转移建议",
+                "icon": "—",
+                "route": "wmsNew/InventoryCenter/fbtInvTransferRecommendations",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1671066008669306883",
+        "name": "商品",
+        "icon": "icon-OMS-shangpinzhongxin",
+        "route": "—",
+        "sort": "4",
+        "level": 2,
+        "children": [
+          {
+            "id": "1796129136581357571",
+            "name": "基础配置",
+            "icon": "—",
+            "route": "—",
+            "sort": "0",
+            "level": 3,
+            "children": [
+              {
+                "id": "1671068172766593026",
+                "name": "多语言配置",
+                "icon": "icon-OMS-duoyuyan",
+                "route": "oms/commodityCenter/multilingual",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1671091525946621954",
+                "name": "规格属性配置",
+                "icon": "icon-OMS-jichushuju",
+                "route": "oms/commodityCenter/baseData",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1796129898627674115",
+                "name": "平台类目配置",
+                "icon": "—",
+                "route": "oms/commodityCenter/platformProductCategory",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1647186923950096387",
+                "name": "平台店铺配置",
+                "icon": "icon-OMS-buhuoxitong",
+                "route": "sys/baseData/platformManagement",
+                "sort": "7",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1796153930219425795",
+                "name": "素材库配置",
+                "icon": "—",
+                "route": "oms/commodityCenter/materialLibrary",
+                "sort": "8",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1796154115553136643",
+                "name": "词库配置",
+                "icon": "—",
+                "route": "oms/commodityCenter/vocabulary",
+                "sort": "21",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1839262645312200706",
+                "name": "刊登配置",
+                "icon": "—",
+                "route": "oms/commodityCenter/listingConfig",
+                "sort": "22",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1872469049120047106",
+                "name": "规格书明细",
+                "icon": "—",
+                "route": "oms/commodityCenter/specificationDetails",
+                "sort": "23",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1796144893801172994",
+            "name": "基础数据",
+            "icon": "—",
+            "route": "—",
+            "sort": "1",
+            "level": 3,
+            "children": [
+              {
+                "id": "2003344622806077443",
+                "name": "产品规格书",
+                "icon": "—",
+                "route": "oms/commodityCenter/productSpecifications",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1671092370817859587",
+                "name": "物料成本价数据",
+                "icon": "icon-OMS-chengbenjiachaxun",
+                "route": "oms/commodityCenter/costPrice",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1671092475390246914",
+                "name": "物料MSRP价数据",
+                "icon": "icon-OMS-MSRPjiagechaxun",
+                "route": "oms/commodityCenter/msrpPrice",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1671092579597729795",
+                "name": "物料报关价数据",
+                "icon": "icon-OMS-baoguanjiagechaxun",
+                "route": "oms/commodityCenter/customsPrice",
+                "sort": "7",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1796145377563807746",
+            "name": "商品管理",
+            "icon": "—",
+            "route": "—",
+            "sort": "2",
+            "level": 3,
+            "children": [
+              {
+                "id": "2087835768793837570",
+                "name": "AI翻译反馈明细",
+                "icon": "—",
+                "route": "oms/commodityCenter/mallGoods/aiTranslateFeedback",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1671066109764616195",
+                "name": "商品库",
+                "icon": "icon-OMS-shangpinku",
+                "route": "oms/commodityCenter/commodityLibrary",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1796162280382435331",
+                "name": "平台商品管理",
+                "icon": "—",
+                "route": "oms/commodityCenter/thirdPartyPlatformProducts",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1796161768471826435",
+                "name": "商品刊登明细",
+                "icon": "—",
+                "route": "oms/commodityCenter/itemListingDetail",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1796161589274382338",
+                "name": "商品刊登模版",
+                "icon": "—",
+                "route": "oms/commodityCenter/listingTemplate",
+                "sort": "5",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1670702744093507587",
+            "name": "OLIGHT火力池",
+            "icon": "icon-OPS-yubeihuolichi",
+            "route": "—",
+            "sort": "4",
+            "level": 3,
+            "children": [
+              {
+                "id": "1969968437821575171",
+                "name": "下单日志",
+                "icon": "—",
+                "route": "ops/olightFirePowerPool/orderLog",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1915661857260515330",
+                "name": "火力门户",
+                "icon": "—",
+                "route": "ops/olightFirePowerPool/firepowerPortal",
+                "sort": "10",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1915672202041569283",
+                "name": "火力总览",
+                "icon": "icon-OPS-huolichijianjie",
+                "route": "ops/olightFirePowerPool/fireOverview",
+                "sort": "20",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1915675738942943235",
+                "name": "三定火力",
+                "icon": "icon-OPS-huolichijianjie",
+                "route": "ops/olightFirePowerPool/threeFixedFirepower",
+                "sort": "30",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1915683193408139267",
+                "name": "试销火力",
+                "icon": "—",
+                "route": "ops/olightFirePowerPool/trialSaleProduct",
+                "sort": "40",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1915684035473387523",
+                "name": "其他火力",
+                "icon": "—",
+                "route": "ops/olightFirePowerPool/otherFirepower",
+                "sort": "50",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1902652948491157507",
+                "name": "意向需求",
+                "icon": "—",
+                "route": "ops/olightFirePowerPool/intentionalDemand",
+                "sort": "60",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1670703050122510339",
+                "name": "火力看板",
+                "icon": "icon-OPS-huolikanban",
+                "route": "ops/olightFirePowerPool/firePowerBoard",
+                "sort": "70",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1670703407984721922",
+                "name": "我的火力库",
+                "icon": "icon-OPS-wodehuoliku",
+                "route": "ops/olightFirePowerPool/myFirePowerBase",
+                "sort": "80",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1670704262431555586",
+                "name": "火力清单",
+                "icon": "icon-OPS-huoliqingdan",
+                "route": "ops/olightFirePowerPool/selectionList",
+                "sort": "90",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1924755380679438339",
+                "name": "店铺需求汇总",
+                "icon": "—",
+                "route": "ops/olightFirePowerPool/storeSummaryRequirements",
+                "sort": "95",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1915687995894607875",
+                "name": "火力报表",
+                "icon": "icon-dingdan1",
+                "route": "ops/olightFirePowerPool/fireReport",
+                "sort": "100",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1670704348305735682",
+                "name": "下推明细",
+                "icon": "icon-OPS-xiatuimingxi",
+                "route": "ops/olightFirePowerPool/pushDownFailureDetails",
+                "sort": "110",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1915688688520998915",
+                "name": "金牌库",
+                "icon": "—",
+                "route": "ops/olightFirePowerPool/goldMedalLibrary",
+                "sort": "120",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1915690505078255618",
+                "name": "火力呼唤",
+                "icon": "—",
+                "route": "ops/olightFirePowerPool/callFire",
+                "sort": "130",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1670704434700009475",
+                "name": "火力配置",
+                "icon": "icon-OPS-huolipeizhi",
+                "route": "ops/olightFirePowerPool/productSelectionSettings",
+                "sort": "140",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1771097653158973443",
+                "name": "店铺下单负责人",
+                "icon": "—",
+                "route": "ops/olightFirePowerPool/storeManager",
+                "sort": "150",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1962436436861050882",
+                "name": "店铺基础数据维护",
+                "icon": "—",
+                "route": "ops/olightFirePowerPool/storeBasicData",
+                "sort": "160",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1962437618639757315",
+                "name": "物料基础数据维护",
+                "icon": "—",
+                "route": "ops/olightFirePowerPool/materialBasicData",
+                "sort": "170",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1750419319963422722",
+            "name": "产品需求管理系统",
+            "icon": "—",
+            "route": "—",
+            "sort": "11",
+            "level": 3,
+            "children": [
+              {
+                "id": "1750419576231202819",
+                "name": "需求收集",
+                "icon": "—",
+                "route": "oms/commodityCenter/demandManagement/demandCollectAndAnalysis",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1750419762332471298",
+                "name": "需求分析&分配",
+                "icon": "—",
+                "route": "oms/commodityCenter/demandManagement/demandAnalysis",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1750420314038636546",
+                "name": "需求验证",
+                "icon": "—",
+                "route": "oms/commodityCenter/demandManagement/demandVerification",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1789986719457161219",
+                "name": "需求文档明细",
+                "icon": "—",
+                "route": "oms/commodityCenter/demandManagement/demandDocument",
+                "sort": "5",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1789989390121512962",
+                "name": "需求报表",
+                "icon": "—",
+                "route": "oms/commodityCenter/demandManagement/demandReport",
+                "sort": "6",
+                "level": 4,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1705146553656860675",
+        "name": "财务中心",
+        "icon": "icon-OMS-jiesuanzhongxin2",
+        "route": "—",
+        "sort": "5",
+        "level": 2,
+        "children": [
+          {
+            "id": "1705146632274894850",
+            "name": "原始流水管理",
+            "icon": "icon-OMS-yuanshiliushuiguanli",
+            "route": "—",
+            "sort": "0",
+            "level": 3,
+            "children": [
+              {
+                "id": "1819303736159956994",
+                "name": "直连流水",
+                "icon": "icon-OMS-yuanshiliushuiguanli",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1705146781223018498",
+                    "name": "九恒星原始流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/primaryFlowManagement/nstcPrimaryFlow",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1705148445829029890",
+                    "name": "B2B原始流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/primaryFlowManagement/b2bPrimaryFlow",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1705148870879797250",
+                    "name": "OMALL原始订单售后退款流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/primaryFlowManagement/omallRefundFlow",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1705149878678773762",
+                    "name": "OMALL原始支付订单流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/primaryFlowManagement/omallOrderPayFlow",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1705149983834169346",
+                    "name": "OA原始流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/primaryFlowManagement/oaPrimaryFlow",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1819307937921429506",
+                "name": "非直连流水",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1853389743329026050",
+                    "name": "Airwallex流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/airwallexFlow",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1853391389761118211",
+                    "name": "Stripe流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/stripeFlow",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1853392529445789698",
+                    "name": "Worldline流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/worldlineFlow",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819308085317660674",
+                    "name": "Paypal流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/paypalFlow",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819308222156828675",
+                    "name": "Braintree流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/braintreeFlow",
+                    "sort": "1",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819308360455614467",
+                    "name": "Oceanpayment流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/oceanpaymentFlow",
+                    "sort": "2",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819308574809714690",
+                    "name": "Afterpay流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/afterpayFlow",
+                    "sort": "3",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819308732792369155",
+                    "name": "Square流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/squareFlow",
+                    "sort": "4",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819308908395294722",
+                    "name": "Payssion 流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/payssionFlow",
+                    "sort": "5",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819309021725388802",
+                    "name": "Checkout流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/checkoutFlow",
+                    "sort": "6",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819309158400978946",
+                    "name": "PaymentWall流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/paymentWallFlow",
+                    "sort": "7",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819309308007608322",
+                    "name": "Payoneer流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/payoneerFlow",
+                    "sort": "8",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819309458788642819",
+                    "name": "TikTok流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/tiktokFlow",
+                    "sort": "9",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819309611788464131",
+                    "name": "KgInicis流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/kginicisFlow",
+                    "sort": "10",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819309702687420419",
+                    "name": "支付宝流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/alipayFlow",
+                    "sort": "11",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819311457332555779",
+                    "name": "微信流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/wechatFlow",
+                    "sort": "12",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819335957528899587",
+                    "name": "京东流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/jingdongFlow",
+                    "sort": "13",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819336109559836675",
+                    "name": "抖音流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/douyinFlow",
+                    "sort": "14",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1819337075512242179",
+                    "name": "拼多多流水",
+                    "icon": "—",
+                    "route": "oms/clearingCenter/indirectFlowManagement/pddFlow",
+                    "sort": "15",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1819337260850147331",
+                "name": "账单流水",
+                "icon": "—",
+                "route": "oms/clearingCenter/indirectFlowManagement/billflow",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1941059182858403843",
+            "name": "红人佣金管理",
+            "icon": "—",
+            "route": "—",
+            "sort": "0",
+            "level": 3,
+            "children": [
+              {
+                "id": "1941059556155654146",
+                "name": "红人佣金支付",
+                "icon": "—",
+                "route": "oms/clearingCenter/influencerManagement/commissionPayment",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1957634219404222467",
+            "name": "报关-组织来往转款",
+            "icon": "—",
+            "route": "oms/clearingCenter/organizationFundTransfers",
+            "sort": "0",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1705152420456357891",
+            "name": "流水识别管理",
+            "icon": "icon-OMS-liushuiguanli",
+            "route": "—",
+            "sort": "1",
+            "level": 3,
+            "children": [
+              {
+                "id": "1705152543689203714",
+                "name": "资金流水识别",
+                "icon": "—",
+                "route": "oms/clearingCenter/fundFlowManagement/fundFlowIdentification",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1819185192508256258",
+                "name": "标准流水管理",
+                "icon": "icon-OMS-jichushuju",
+                "route": "oms/clearingCenter/standardManagement",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1869666236553216003",
+                "name": "流水导入模板管理",
+                "icon": "—",
+                "route": "oms/clearingCenter/standardTemplateManagement",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1869671284159004674",
+                "name": "流水导入管理",
+                "icon": "—",
+                "route": "oms/clearingCenter/standardImportManagement",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1912794164169748482",
+                "name": "流水监控看板",
+                "icon": "—",
+                "route": "oms/clearingCenter/fundFlowManagement/monitoringDashboard",
+                "sort": "4",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1912794301529010179",
+                "name": "监控负责人维护",
+                "icon": "—",
+                "route": "oms/clearingCenter/fundFlowManagement/personCharge",
+                "sort": "5",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1803708387017207811",
+            "name": "对账管理",
+            "icon": "icon-shouye-jichushuju",
+            "route": "—",
+            "sort": "2",
+            "level": 3,
+            "children": [
+              {
+                "id": "1705168480219881474",
+                "name": "应收实收对账",
+                "icon": "—",
+                "route": "oms/clearingCenter/revenueExpenditureManagement/reconciliationReceivables",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1803748303830888451",
+                "name": "订单整单闭环",
+                "icon": "—",
+                "route": "oms/clearingCenter/revenueExpenditureManagement/orderSingleClosed",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1705176069955575810",
+                "name": "B端客户余额",
+                "icon": "—",
+                "route": "oms/clearingCenter/revenueExpenditureManagement/customerBalanceManagement",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1705152202310606851",
+            "name": "配置规则管理",
+            "icon": "icon-OMS-peizhiguizeguanli",
+            "route": "—",
+            "sort": "3",
+            "level": 3,
+            "children": [
+              {
+                "id": "1705152339279798274",
+                "name": "规则配置",
+                "icon": "—",
+                "route": "oms/clearingCenter/rulesManagement/rulesSettings",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1705154330303324163",
+            "name": "资金管理",
+            "icon": "icon-OMS-shouzhiguanli",
+            "route": "—",
+            "sort": "4",
+            "level": 3,
+            "children": [
+              {
+                "id": "1705158786109595651",
+                "name": "资金收支明细",
+                "icon": "—",
+                "route": "oms/clearingCenter/revenueExpenditureManagement/fundRevenueExpenditureDetails",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1944693460778434563",
+                "name": "SAP余额差异比对",
+                "icon": "—",
+                "route": "oms/clearingCenter/revenueExpenditureManagement/balanceReconciliation",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1819177828107350018",
+                "name": "集团资金余额",
+                "icon": "—",
+                "route": "oms/clearingCenter/revenueExpenditureManagement/fundBalance",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1926931736741769219",
+                "name": "资金账号监控",
+                "icon": "—",
+                "route": "oms/clearingCenter/revenueExpenditureManagement/fundMonitoring",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1819180777625808898",
+                "name": "在途/冻结/押金登记",
+                "icon": "—",
+                "route": "oms/clearingCenter/revenueExpenditureManagement/inTransit",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1926932047761993730",
+                "name": "资金账号收退款差异（商城&平台）",
+                "icon": "—",
+                "route": "oms/clearingCenter/revenueExpenditureManagement/fundDifferences",
+                "sort": "4",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1705177286341484547",
+            "name": "单据管理",
+            "icon": "icon-OMS-danjuguanli",
+            "route": "—",
+            "sort": "5",
+            "level": 3,
+            "children": [
+              {
+                "id": "1705177387747172355",
+                "name": "OA凭证",
+                "icon": "—",
+                "route": "oms/clearingCenter/documentManagement/oa",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1930558179128340482",
+            "name": "统计管理",
+            "icon": "icon-OPS-wenzetongji",
+            "route": "—",
+            "sort": "6",
+            "level": 3,
+            "children": [
+              {
+                "id": "1930558272585822210",
+                "name": "银行卡信息登记",
+                "icon": "—",
+                "route": "oms/clearingCenter/statisticalManagement/informationRegistration",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1930558374650015747",
+                "name": "扣款账号捆绑登记",
+                "icon": "—",
+                "route": "oms/clearingCenter/statisticalManagement/debitAccount",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1930558473799168003",
+                "name": "收款账号捆绑登记",
+                "icon": "—",
+                "route": "oms/clearingCenter/statisticalManagement/paymentAccount",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1934541703908913155",
+                "name": "银行贷款还款计划",
+                "icon": "—",
+                "route": "oms/clearingCenter/statisticalManagement/loanRepaymentPlan",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1934541831566749699",
+                "name": "第三方支付收款及手续费统计",
+                "icon": "—",
+                "route": "oms/clearingCenter/statisticalManagement/tppReceiptAndFeeStats",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1934541931647037442",
+                "name": "第三方支付合同费率登记",
+                "icon": "—",
+                "route": "oms/clearingCenter/statisticalManagement/tppRateRegistration",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1935616519617343490",
+            "name": "资金日记账",
+            "icon": "—",
+            "route": "oms/clearingCenter/fundJournalManagement/fundJournal",
+            "sort": "6",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1670707721625059331",
+            "name": "发票管理",
+            "icon": "icon-OPS-fapiaoguanli",
+            "route": "—",
+            "sort": "6",
+            "level": 3,
+            "children": [
+              {
+                "id": "1670984911411396610",
+                "name": "发票管理",
+                "icon": "icon-OPS-fapiaoguanli",
+                "route": "ops/finance/invoiceManagement",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1939969656282841091",
+        "name": "亚马逊站内信",
+        "icon": "icon-OPS-zhanduiguanli",
+        "route": "—",
+        "sort": "6",
+        "level": 2,
+        "children": [
+          {
+            "id": "1939969839133523971",
+            "name": "站内信",
+            "icon": "—",
+            "route": "oms/customerService/siteMessage",
+            "sort": "1",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1939969951373099011",
+            "name": "邮件设置",
+            "icon": "icon-shezhi-yidongquanxian",
+            "route": "oms/customerService/emailSettings",
+            "sort": "2",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1939970111998164995",
+            "name": "店铺管理",
+            "icon": "icon-OMS-kandengdianpu",
+            "route": "oms/customerService/storeManagement",
+            "sort": "3",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1968614387628773379",
+            "name": "邮件统计",
+            "icon": "—",
+            "route": "oms/customerService/emailStatistics",
+            "sort": "5",
+            "level": 3,
+            "children": []
+          },
+          {
+            "id": "1968615212098916355",
+            "name": "邮件拦截记录",
+            "icon": "—",
+            "route": "oms/customerService/emailInterception",
+            "sort": "6",
+            "level": 3,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "1831220529477656578",
+        "name": "广告中心",
+        "icon": "icon-jixiao",
+        "route": "—",
+        "sort": "7",
+        "level": 2,
+        "children": [
+          {
+            "id": "1831220668057460739",
+            "name": "广告投放",
+            "icon": "icon-menhu1",
+            "route": "—",
+            "sort": "1",
+            "level": 3,
+            "children": [
+              {
+                "id": "1833472896227024898",
+                "name": "Facebook",
+                "icon": "—",
+                "route": "obd/advertisingCenter/advertising/meta",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1833472453094612995",
+                "name": "Google",
+                "icon": "—",
+                "route": "obd/advertisingCenter/advertising/google",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1831220770901794818",
+                "name": "TikTok",
+                "icon": "—",
+                "route": "obd/advertisingCenter/advertising/tiktok",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1888846581114204162",
+                "name": "Bing",
+                "icon": "—",
+                "route": "obd/advertisingCenter/advertising/bing",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1888846770231177219",
+                "name": "RTBhouse",
+                "icon": "—",
+                "route": "obd/advertisingCenter/advertising/RTBhouse",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1888846669257502722",
+                "name": "Pinterest",
+                "icon": "—",
+                "route": "obd/advertisingCenter/advertising/pinterest",
+                "sort": "4",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1888846884148473858",
+                "name": "Taboola",
+                "icon": "—",
+                "route": "obd/advertisingCenter/advertising/taboola",
+                "sort": "5",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1833472740941307907",
+                "name": "Amazon",
+                "icon": "—",
+                "route": "obd/advertisingCenter/advertising/amazon",
+                "sort": "7",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1831221755627905026",
+            "name": "效益分析",
+            "icon": "icon-yingxiaozhongxin",
+            "route": "—",
+            "sort": "2",
+            "level": 3,
+            "children": [
+              {
+                "id": "1833786905794912258",
+                "name": "Amazon",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1834551554852188162",
+                    "name": "广告全局概览",
+                    "icon": "—",
+                    "route": "obd/advertisingCenter/benefitAnalysis/amazon/globalOverview",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1834551741477744642",
+                    "name": "广告产品分析",
+                    "icon": "—",
+                    "route": "obd/advertisingCenter/benefitAnalysis/amazon/productAnalysis",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1872448542052106242",
+                    "name": "站外推广分析",
+                    "icon": "—",
+                    "route": "obd/advertisingCenter/benefitAnalysis/amazon/siteAnalysis",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "id": "1831221869943660547",
+                "name": "付费推广",
+                "icon": "—",
+                "route": "—",
+                "sort": "0",
+                "level": 4,
+                "children": [
+                  {
+                    "id": "1833787923001712643",
+                    "name": "广告活动概览",
+                    "icon": "—",
+                    "route": "obd/advertisingCenter/benefitAnalysis/channelActivity",
+                    "sort": "0",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1831222027875983363",
+                    "name": "广告综合概览",
+                    "icon": "—",
+                    "route": "obd/advertisingCenter/benefitAnalysis/channelOverview",
+                    "sort": "1",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1833788783626756098",
+                    "name": "广告活动详情",
+                    "icon": "—",
+                    "route": "obd/advertisingCenter/benefitAnalysis/performanceActivity",
+                    "sort": "2",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1833788255102509058",
+                    "name": "广告综合详情",
+                    "icon": "—",
+                    "route": "obd/advertisingCenter/benefitAnalysis/performanceDetails",
+                    "sort": "3",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1833789171981557763",
+                    "name": "广告周期表现",
+                    "icon": "—",
+                    "route": "—",
+                    "sort": "4",
+                    "level": 5,
+                    "children": [
+                      {
+                        "id": "1849628283524259843",
+                        "name": "日表现",
+                        "icon": "—",
+                        "route": "obd/advertisingCenter/benefitAnalysis/channelPerformance/day",
+                        "sort": "0",
+                        "level": 6,
+                        "children": []
+                      },
+                      {
+                        "id": "1849637348040155138",
+                        "name": "周表现",
+                        "icon": "—",
+                        "route": "obd/advertisingCenter/benefitAnalysis/channelPerformance/week",
+                        "sort": "1",
+                        "level": 6,
+                        "children": []
+                      },
+                      {
+                        "id": "1849637532941852674",
+                        "name": "月表现",
+                        "icon": "—",
+                        "route": "obd/advertisingCenter/benefitAnalysis/channelPerformance/moon",
+                        "sort": "2",
+                        "level": 6,
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "id": "1833788088966127618",
+                    "name": "爆款表现",
+                    "icon": "—",
+                    "route": "obd/advertisingCenter/benefitAnalysis/bestSeller",
+                    "sort": "6",
+                    "level": 5,
+                    "children": []
+                  },
+                  {
+                    "id": "1833788615225450498",
+                    "name": "活动广告走势",
+                    "icon": "—",
+                    "route": "obd/advertisingCenter/benefitAnalysis/activityTrend",
+                    "sort": "7",
+                    "level": 5,
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "1833352452865990659",
+            "name": "服务工具",
+            "icon": "icon-hangye-zhizao",
+            "route": "—",
+            "sort": "3",
+            "level": 3,
+            "children": [
+              {
+                "id": "2097879218242641922",
+                "name": "AI智创方案",
+                "icon": "icon-yongzhangguanli",
+                "route": "obd/advertisingCenter/serviceTools/aiCreate",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1961365355408580611",
+                "name": "AI审核",
+                "icon": "—",
+                "route": "obd/advertisingCenter/serviceTools/aiApp",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1851936921626517507",
+                "name": "预算方案",
+                "icon": "—",
+                "route": "obd/advertisingCenter/serviceTools/budgetScheme",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1963856590526406658",
+                "name": "任务中心",
+                "icon": "—",
+                "route": "obd/advertisingCenter/serviceTools/taskCenter",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1924999587360894979",
+                "name": "标签管理",
+                "icon": "—",
+                "route": "obd/advertisingCenter/serviceTools/labelManage",
+                "sort": "4",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1834558319882858499",
+                "name": "自动化规则",
+                "icon": "—",
+                "route": "obd/advertisingCenter/serviceTools/automatic",
+                "sort": "5",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1961366085473329154",
+                "name": "快捷起名管理",
+                "icon": "—",
+                "route": "obd/advertisingCenter/serviceTools/convenientNaming",
+                "sort": "6",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1851937274942103554",
+                "name": "广告活动AI总结",
+                "icon": "—",
+                "route": "obd/advertisingCenter/serviceTools/aISummary",
+                "sort": "7",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1833352622907269122",
+            "name": "资产管理",
+            "icon": "icon-tubiaozhizuomoban-105",
+            "route": "—",
+            "sort": "4",
+            "level": 3,
+            "children": [
+              {
+                "id": "1933470489618640899",
+                "name": "文案库",
+                "icon": "—",
+                "route": "obd/advertisingCenter/assetManagement/copywritingLibrary",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1933468890141782019",
+                "name": "素材库",
+                "icon": "—",
+                "route": "obd/advertisingCenter/assetManagement/mediaBank",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1933471134539018242",
+                "name": "定向包",
+                "icon": "—",
+                "route": "obd/advertisingCenter/assetManagement/directionalPackage",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1927661184143290370",
+                "name": "广告模板",
+                "icon": "—",
+                "route": "obd/advertisingCenter/assetManagement/template",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2047203691590561794",
+                "name": "产品资料库",
+                "icon": "—",
+                "route": "obd/advertisingCenter/assetManagement/productMaterial",
+                "sort": "4",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1833352863207333891",
+            "name": "管理配置",
+            "icon": "icon-yangpinguanli",
+            "route": "—",
+            "sort": "5",
+            "level": 3,
+            "children": [
+              {
+                "id": "1834562243587141635",
+                "name": "日志中心",
+                "icon": "—",
+                "route": "obd/advertisingCenter/configuration/logCenter",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1872458832961519619",
+            "name": "预警中心",
+            "icon": "icon-OMS-yichangdingdan",
+            "route": "—",
+            "sort": "6",
+            "level": 3,
+            "children": [
+              {
+                "id": "1872458950322339843",
+                "name": "预警管理",
+                "icon": "—",
+                "route": "obd/advertisingCenter/warningCenter/warningManagement",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "2011607756728557571",
+            "name": "UTM管理",
+            "icon": "—",
+            "route": "—",
+            "sort": "7",
+            "level": 3,
+            "children": [
+              {
+                "id": "2011607900245057539",
+                "name": "链接管理",
+                "icon": "—",
+                "route": "obd/advertisingCenter/utmManagement/linkManagement",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2011608005236875266",
+                "name": "链接分类",
+                "icon": "—",
+                "route": "obd/advertisingCenter/utmManagement/linkClasses",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2011608099684212738",
+                "name": "营销参数",
+                "icon": "—",
+                "route": "obd/advertisingCenter/utmManagement/linkParameters",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1996497029220241410",
+        "name": "营销中心",
+        "icon": "icon-yingxiaozhongxin",
+        "route": "—",
+        "sort": "8",
+        "level": 2,
+        "children": [
+          {
+            "id": "2085302114326654978",
+            "name": "AI知识库",
+            "icon": "—",
+            "route": "—",
+            "sort": "0",
+            "level": 3,
+            "children": [
+              {
+                "id": "2085304745098981378",
+                "name": "广告费用业务数据",
+                "icon": "—",
+                "route": "oms/marketingCenter/aiKnowledgeBase/adTrafficDetail",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2085307556599672835",
+                "name": "产品物料预测销量数据",
+                "icon": "—",
+                "route": "oms/marketingCenter/aiKnowledgeBase/materialForecastActualDetail",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2085308712713433090",
+                "name": "商城用户数据",
+                "icon": "—",
+                "route": "oms/marketingCenter/aiKnowledgeBase/mallUserData",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2085309718650138627",
+                "name": "加权日销明细",
+                "icon": "—",
+                "route": "oms/marketingCenter/aiKnowledgeBase/weightedDailySalesDetail",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2089279500026097666",
+                "name": "商品业务数据",
+                "icon": "—",
+                "route": "oms/marketingCenter/aiKnowledgeBase/productBusinessDetails",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2089280360504340482",
+                "name": "物料文档",
+                "icon": "—",
+                "route": "oms/marketingCenter/aiKnowledgeBase/materialManual",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008002705829257219",
+                "name": "产品物料主数据",
+                "icon": "—",
+                "route": "oms/marketingCenter/basicData/library",
+                "sort": "5",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2089290977323757570",
+                "name": "产品物料业务数据",
+                "icon": "—",
+                "route": "oms/marketingCenter/aiKnowledgeBase/productMaterial",
+                "sort": "6",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2077961530291580930",
+                "name": "试销分数",
+                "icon": "—",
+                "route": "oms/marketingCenter/basicData/trialSales",
+                "sort": "7",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2089295835695132674",
+                "name": "文本规则配置",
+                "icon": "—",
+                "route": "oms/marketingCenter/aiKnowledgeBase/texConfiguration",
+                "sort": "8",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2089297340766597123",
+                "name": "图片规则配置",
+                "icon": "—",
+                "route": "oms/marketingCenter/aiKnowledgeBase/imageConfiguration",
+                "sort": "9",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2089298545496535042",
+                "name": "页面规则配置",
+                "icon": "—",
+                "route": "oms/marketingCenter/aiKnowledgeBase/pageConfiguration",
+                "sort": "10",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1996497175655976963",
+            "name": "基础数据",
+            "icon": "icon-jichushuju1",
+            "route": "—",
+            "sort": "1",
+            "level": 3,
+            "children": [
+              {
+                "id": "1996497473296371714",
+                "name": "利润中心",
+                "icon": "—",
+                "route": "oms/marketingCenter/basicData/profitCenter",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2007996134743203843",
+                "name": "角标模板",
+                "icon": "—",
+                "route": "oms/marketingCenter/basicData/cornerMarkConfig",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1996498315156099074",
+                "name": "损益主数据",
+                "icon": "—",
+                "route": "oms/marketingCenter/basicData/materialData",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1996498757915217922",
+                "name": "人工固费&VAT税率",
+                "icon": "—",
+                "route": "oms/marketingCenter/basicData/costsAndRates",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1996498891084369923",
+                "name": "尾程/关税税率",
+                "icon": "—",
+                "route": "oms/marketingCenter/basicData/lastmileTariffRate",
+                "sort": "4",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2007998442025639938",
+                "name": "立库清单",
+                "icon": "—",
+                "route": "oms/commodityCenter/mallGoods/inventory",
+                "sort": "5",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2078012328476209155",
+                "name": "季节性指数",
+                "icon": "—",
+                "route": "oms/marketingCenter/basicData/seasonalIndex",
+                "sort": "8",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2078012531958673410",
+                "name": "市场活动级别",
+                "icon": "—",
+                "route": "oms/marketingCenter/basicData/activityLevel",
+                "sort": "9",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2078012701752487938",
+                "name": "引流品价值指数",
+                "icon": "—",
+                "route": "oms/marketingCenter/basicData/productValue",
+                "sort": "10",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008004517672116226",
+                "name": "oMall店铺配置",
+                "icon": "—",
+                "route": "oms/commodityCenter/mallGoods/store",
+                "sort": "11",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008005663962816514",
+                "name": "新品报表",
+                "icon": "—",
+                "route": "oms/marketingCenter/basicData/newProductReport",
+                "sort": "12",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008007948302409731",
+                "name": "物料折扣明细",
+                "icon": "—",
+                "route": "oms/marketingCenter/basicData/materialDiscount",
+                "sort": "13",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008011287207469058",
+                "name": "物料销量",
+                "icon": "—",
+                "route": "oms/marketingCenter/eventManagement/flashSale",
+                "sort": "14",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "1996497296443543554",
+            "name": "活动损益",
+            "icon": "icon-huodongsunyi",
+            "route": "—",
+            "sort": "2",
+            "level": 3,
+            "children": [
+              {
+                "id": "2066811085187862531",
+                "name": "店铺物料机型配置",
+                "icon": "—",
+                "route": "oms/marketingCenter/profitandLoss/shopMaterialModel",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2087833260474216450",
+                "name": "店铺损益配置",
+                "icon": "—",
+                "route": "oms/marketingCenter/profitandLoss/shopProfitand",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1996501320634961922",
+                "name": "损益模型",
+                "icon": "—",
+                "route": "oms/marketingCenter/profitandLoss/model",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1996501458535288834",
+                "name": "损益列表",
+                "icon": "—",
+                "route": "oms/marketingCenter/profitandLoss/list",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "1996501578362359811",
+                "name": "损益产品",
+                "icon": "—",
+                "route": "oms/marketingCenter/profitandLoss/products",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008018854725935106",
+                "name": "历史综合折扣率(每月)",
+                "icon": "—",
+                "route": "oms/marketingCenter/profitandLoss/trend",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2048719963084677122",
+                "name": "历史综合折扣率(活动)",
+                "icon": "—",
+                "route": "oms/marketingCenter/profitandLoss/trendActivity",
+                "sort": "4",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2082300270257954819",
+                "name": "销售预测准确率",
+                "icon": "—",
+                "route": "oms/marketingCenter/profitandLoss/report",
+                "sort": "5",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2057637519770931203",
+                "name": "损益结果",
+                "icon": "—",
+                "route": "oms/marketingCenter/profitandLoss/results",
+                "sort": "6",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "2008052883449831427",
+            "name": "活动策略",
+            "icon": "icon-huodongcelve",
+            "route": "—",
+            "sort": "3",
+            "level": 3,
+            "children": [
+              {
+                "id": "2008060564440997890",
+                "name": "营销组件库",
+                "icon": "—",
+                "route": "oms/marketingCenter/marketingStrategy/marketingComponentList",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008060747794997250",
+                "name": "方案策略列表",
+                "icon": "—",
+                "route": "oms/marketingCenter/marketingStrategy/strategyList",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "2008053123456294915",
+            "name": "营销方案",
+            "icon": "icon-yingxiaofangan",
+            "route": "—",
+            "sort": "4",
+            "level": 3,
+            "children": [
+              {
+                "id": "2033498351317893123",
+                "name": "活动时间一览表",
+                "icon": "—",
+                "route": "oms/marketingCenter/eventManagement/activityTimeList",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008064108099395586",
+                "name": "项目类型列表",
+                "icon": "—",
+                "route": "oms/marketingCenter/eventManagement/projectTypeList",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008064239653740547",
+                "name": "营销方案列表",
+                "icon": "—",
+                "route": "oms/marketingCenter/eventManagement/eventManagementList",
+                "sort": "2",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008064369719107587",
+                "name": "营销选品库存销量一览表",
+                "icon": "—",
+                "route": "oms/marketingCenter/eventManagement/inventorySales",
+                "sort": "3",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008064537998778370",
+                "name": "日常活动列表",
+                "icon": "—",
+                "route": "oms/marketingCenter/dailyActivities/dailyPlan",
+                "sort": "4",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008064677497135106",
+                "name": "营销活动复核",
+                "icon": "—",
+                "route": "oms/marketingCenter/eventManagement/marketingReview",
+                "sort": "5",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008064823656046594",
+                "name": "集团主题活动",
+                "icon": "—",
+                "route": "oms/marketingCenter/eventManagement/themeActivity",
+                "sort": "6",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008064971228438531",
+                "name": "引流物料管理",
+                "icon": "—",
+                "route": "oms/marketingCenter/eventManagement/trafficGeneration",
+                "sort": "7",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008065106033369090",
+                "name": "引流物料复核",
+                "icon": "—",
+                "route": "oms/marketingCenter/eventManagement/reviewOfDrainage",
+                "sort": "8",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2048719123083026434",
+                "name": "群发邮件记录",
+                "icon": "—",
+                "route": "oms/marketingCenter/eventManagement/emailMessage",
+                "sort": "9",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2052338192046743554",
+                "name": "团队目标",
+                "icon": "—",
+                "route": "oms/marketingCenter/eventManagement/teamGoal",
+                "sort": "10",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "id": "2008053241643393027",
+            "name": "活动项目管理",
+            "icon": "icon-WBSzhihangbiao",
+            "route": "—",
+            "sort": "5",
+            "level": 3,
+            "children": [
+              {
+                "id": "2008053459738812418",
+                "name": "活动项目列表",
+                "icon": "—",
+                "route": "oms/marketingCenter/wbsExecution/executionList",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2034562507084902403",
+                "name": "活动项目监控表",
+                "icon": "—",
+                "route": "oms/marketingCenter/wbsExecution/followUpList",
+                "sort": "0",
+                "level": 4,
+                "children": []
+              },
+              {
+                "id": "2008053636885241859",
+                "name": "活动项目模板",
+                "icon": "—",
+                "route": "oms/marketingCenter/wbsExecution/templateList",
+                "sort": "1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
